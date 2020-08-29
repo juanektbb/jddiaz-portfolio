@@ -1,0 +1,84 @@
+.Gallery{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding: 5px
+}
+
+
+
+.Tile{
+  background-color: #f1f1f1;
+  height: 320px;
+  min-height: 320px;
+  max-height: 320px;
+  border: 1px solid #eaeaea;
+  position: relative;
+}
+.tile-bg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tile-category{
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 100px);
+  color: #666;
+  width: 200px;
+  text-align: center;
+}
+
+.hovereffect{
+  filter: grayscale(1) blur(4px);
+  transition: all 0.5s ease-in;
+}
+
+.tile-cover{
+  background-color: rgba(90, 90, 90, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in;
+  opacity: 0
+}
+.showup{
+  opacity: 1;
+}
+
+.tile-title{
+  background-color: rgba(155, 0, 0, 0.6);
+  line-height: 100px;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  transition: all 0s ease-out;
+}
+.tile-title-effect{
+  width: 100%;
+
+  transition: all 0.3s ease-in;
+
+}
+
+/* What is this button */
+.tile-details{
+  background-color: rgba(20, 20, 20, 0.75);
+  border: 1px solid white;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  margin: 80px auto 0;
+  text-align: center;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+}
+.tile-details:hover{
+  box-shadow: 0 0 20px #ffffff;
+}

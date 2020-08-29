@@ -1,0 +1,66 @@
+:root{
+  --color-menu: #31313e;
+  --color-option: #40404f;
+  --color-hover: #4f4f60;
+}
+
+.Menu a, .Menu a:hover, .Menu a:link, .Menu a:visited{
+  color: #eee;
+}
+.Menu{
+  border-right: 1px solid var(--color-menu);
+  background-color: var(--color-menu);
+
+}
+.Header{
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Dancing Script', sans-serif;
+  color: #eee;
+}
+.Option{
+  width: 100%;
+  text-align: right;
+  padding: 14px;
+  font-size: 20px;
+  background-color: var(--color-option);
+  cursor: pointer;
+}
+.Option:hover{
+  background-color: var(--color-hover);
+  /* border-left: 5px solid var(--color-menu); */
+  transition: border-left 1s;
+}
+.active-option .Option{
+  background-color: #4f4f60;
+  /* border-left: 3px solid var(--color-menu); */
+}
+.Social{
+  margin-top: 25px;
+}
+.Media{
+  width: 100%;
+  font-size: 14px;
+  padding-left: 55px;
+  line-height: 45px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.Media img{
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 35px;
+}
+footer{
+  position: absolute;
+  font-size: 12px;
+  color: var(--color-hover);
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+}
