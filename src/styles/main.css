@@ -17,19 +17,15 @@ a, a:link, a:hover, a:visited{
   color: #097ab5;
   cursor: pointer;
 }
-
 h1, h2{
   padding: 0;
   margin: 4px 0 12px;
+  color: #333;
 }
 h3, h4, h5{
   padding: 0;
   margin: 4px 0 4px;
   font-size: 18px;
-}
-
-h1, h2{
-  color: #333;
 }
 h4{
   color: #444;
@@ -37,9 +33,6 @@ h4{
 h5{
   color: #666;
 }
-
-
-
 p{
   color: #444;
 }
@@ -81,6 +74,7 @@ p{
   min-height: 100%;
   background-color: #fff;
   padding: 20px 0px;
+  margin-bottom: 5px;
 }
 .double-column:first-child{
   border-right: 1px solid #ddd;

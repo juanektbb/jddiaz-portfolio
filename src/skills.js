@@ -40,7 +40,9 @@ import Tcss from './images/skills/t-css.jpg'
 import Tsass from './images/skills/t-sass.jpg'
 import Tbootstrap from './images/skills/t-bootstrap.jpg'
 
-
+import Tphotoshop from './images/skills/t-photoshop.jpg'
+import Tpremier from './images/skills/t-premier.jpg'
+import Teffects from './images/skills/t-effects.jpg'
 
 const skillslist = [
   {
@@ -113,18 +115,23 @@ const skillslist = [
       {"name": "Matplotlib", "logo": Tmatplotlib}
     ]
   },
-
   {
     "title": "Mobile Technologies",
     "color": "#61b086",
     "text": "#000",
     "skills": [
       {"name": "Native", "logo": Treact},
-      {"name": "Studio", "logo": Tandroid},
+      {"name": "A. Studio", "logo": Tandroid},
     ]
   },
-
-
+  {
+    "title": "Others",
+    "color": "#c84b36",
+    "text": "#fff",
+    "skills": [
+      {"name": "Java", "logo": Tjava}
+    ]
+  },
   {
     "title": "Frontend Development",
     "color": "#cc6698",
@@ -137,13 +144,15 @@ const skillslist = [
     ]
   },
   {
-    "title": "Others",
-    "color": "#c84b36",
+    "title": "Adobe Creative Suite",
+    "color": "#353b6a",
     "text": "#fff",
     "skills": [
-      {"name": "Java", "logo": Tjava}
+      {"name": "Photoshop", "logo": Tphotoshop},
+      {"name": "Premier", "logo": Tpremier},
+      {"name": "A. Effects", "logo": Teffects},
     ]
-  },
+  }
 ]
 
 export default skillslist

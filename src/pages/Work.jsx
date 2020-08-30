@@ -2,6 +2,9 @@ import React from 'react'
 import '../styles/work.css'
 
 import Me2 from '../images/me_2.jpg'
+import Download from '../images/download.png'
+
+import { Link } from 'react-router-dom'
 
 class Work extends React.Component{
 
@@ -16,9 +19,9 @@ class Work extends React.Component{
         <div className="double-column-box">
           <div className="double-column">
             <h2>Work timeline</h2>
-            <p>This work timeline illustrates my most relevant work experiences of the past years.
-
-            They all have allowed me progressed in my career and grown my skills to a higher and more professional level which are my actual standards.
+            <p className="timeline-paragraph">
+              This timeline illustrates my most relevant work experiences of the past years.
+              They all allowed me to progress in my <Link to="/about">career</Link> and grow my skills to a higher and more <b>professional</b> level which are my standards.
             </p>
 
             <div className="timeline">
@@ -26,34 +29,39 @@ class Work extends React.Component{
                 <div className="experience">
                     <h3>Now - 2019</h3>
                     <h5>VeeLoop & vHelp</h5>
-                    <p>Software Engineer</p>
+                    <p>Full-Stack Developer</p>
+                    <p>DevOps</p>
                   </div>
                 </div>
                 <div className="experience-container right-side">
                   <div className="experience">
                     <h3>2020 - 2018</h3>
                     <h5>Karali Group</h5>
-                    <p>Software Developer</p>
+                    <p>Full-Stack Developer</p>
+                    <p>IT Consultancy</p>
+                    <p>DevOps</p>
                   </div>
                 </div>
                 <div className="experience-container left-side">
                   <div className="experience">
                     <h3>2019 - 2018</h3>
                     <h5>Wiz School</h5>
-                    <p>Programming teacher</p>
+                    <p>Programming Teacher</p>
                   </div>
                 </div>
                 <div className="experience-container right-side">
                   <div className="experience">
                     <h3>2018 - 2017</h3>
                     <h5>Communique</h5>
-                    <p>Software Developer</p>
+                    <p>Front-end Developer</p>
+                    <p>Photo & Video Editor</p>
                   </div>
                 </div>
                 <div className="experience-container left-side">
                   <div className="experience">
                   <h3>Now - 2014</h3>
                   <h5>Freelancer</h5>
+                  <p>Back-end Developer</p>
                   <p>Web Designer</p>
                 </div>
               </div>
@@ -61,32 +69,33 @@ class Work extends React.Component{
           </div>
 
           <div className="double-column">
-            <h2>Freelancer</h2>
-            <h4>Would you like me to work on your project?</h4>
-            <h5>Contact me and tell me your ideas!</h5>
+            <div className="download-cv">
+              <div>Download CV</div>
+              <img src={Download} alt='Download icon'/>
+            </div>
+
+            <h2>Freelancer or Contractor</h2>
+            <h4>Shall we work on your next project?</h4>
+            <h5 className="last-heading">Let's chat and share ideas!</h5>
 
             <div className="me-box-work">
               <img src={Me2} alt="This is me, Juan" className="me-work"/>
-              <div className='me-caption-work'>Everywhere</div>
+              <div className='me-caption-work'>From everywhere</div>
             </div>
 
             <p>
-              I am available and always looking for new and exiting projects to take on.
-              No matter where you are as I also pick remote work from anywhere providing a reliable and professional service.
+              I am available and always looking for new and <b>exciting projects</b> to take on.
+              No matter whether you require a small or large job, with or without deadlines, physically or remotely; because I can adapt to your project requirements providing a reliable and professional service.
             </p>
             <p>
-
-            If this sounds interesting to you, get in touch to discuss your project in more details, share ideas and get an amazing outcome from each others collaboration.
+              My main experience is in web as full-stack, but I am also very passionate for mobile apps.
+              I excel because I take great care to ensure each project is easily maintained as your idea grows.
             </p>
-
+            <p>
+              If this sounds interesting to you, <Link to="/chat">get in touch</Link> to discuss your project in more detail, share ideas and get an amazing outcome from each others collaboration.
+            </p>
           </div>
         </div>
-
-
-
-
-
-
       </div>
     )
   }

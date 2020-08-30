@@ -4,11 +4,14 @@
   --items-color: #097ab5;
 }
 
-
-/* Timeline and bar */
-.timeline {
+/* Column in left - Work */
+.timeline-paragraph{
+  margin-bottom: 40px;
+}
+.timeline{
   position: relative;
   margin: 0 auto;
+  padding-bottom: 22px;
 }
 .timeline::after{
   content: '';
@@ -21,8 +24,6 @@
   margin-left: -3px;
   border: 3px dashed var(--main-bar);
 }
-
-
 .experience-container{
   padding: 10px 40px;
   position: relative;
@@ -30,14 +31,12 @@
   width: 50%;
   margin-bottom: -24px;
 }
-
-
 .experience-container::after{
   content: '';
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -16.5px;
   background-color: white;
   border: 4px solid var(--items-color);
   top: 15px;
@@ -50,8 +49,6 @@
 .right-side{
   left: 50%;
 }
-
-/* Arrows */
 .left-side::before{
   content: " ";
   height: 0;
@@ -79,10 +76,8 @@
 .right-side::after{
   left: -16px;
 }
-
-
 .experience{
-  padding: 12px 17px;
+  padding: 15px 15px;
   background-color: var(--main-boxes);
   position: relative;
   border-radius: 6px;
@@ -94,50 +89,62 @@
   margin: 0;
 }
 .experience p{
-  margin: 8px auto;
+  margin: 8px auto 0;
+  font-size: 16px;
+  line-height: 18px;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px){
-
-  .timeline::after {
+  .timeline::after{
     left: 31px;
   }
-
-/* Full-width containers */
-  .experience-container {
+  .experience-container{
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
-/* Make sure that all arrows are pointing leftwards */
-  .experience-container::before {
+  .experience-container::before{
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
-
-/* Make sure all circles are at the same spot */
-  .left-side::after, .right-side::after {
+  .left-side::after, .right-side::after{
     left: 15px;
   }
-
-/* Make all right containers behave like the left ones */
-  .right-side {
+  .right-side{
     left: 0%;
   }
 }
 
-
-
-
-
-
+/* Column in right - Freelance */
+.download-cv{
+  background-color: #f6f6f6;
+  width: 200px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  float: right;
+  margin: 9px 0 10px 10px;
+  line-height: 22px;
+}
+.download-cv:hover{
+  background-color: #eee;
+}
+.download-cv img{
+  width: 16px
+}
+.last-heading{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
 .me-box-work{
-  max-width: 240px;
-  margin: 18px 0 18px 18px;
+  max-width: 200px;
+  margin: 8px 0 6px 18px;
   float: right;
 }
 .me-work{
@@ -148,7 +155,7 @@
 }
 .me-caption-work{
   text-align: center;
-  margin-top: 0px;
+  margin-top: -2px;
   color: #666;
   font-size: 14px;
 }
