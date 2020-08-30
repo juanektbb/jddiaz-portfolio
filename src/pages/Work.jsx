@@ -16,7 +16,10 @@ class Work extends React.Component{
         <div className="double-column-box">
           <div className="double-column">
             <h2>Work timeline</h2>
-            <p>This work timeline illustrates my most relevant work experiences of the past years. </p>
+            <p>This work timeline illustrates my most relevant work experiences of the past years.
+
+            They all have allowed me progressed in my career and grown my skills to a higher and more professional level which are my actual standards.
+            </p>
 
             <div className="timeline">
               <div className="experience-container left-side">

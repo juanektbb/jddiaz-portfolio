@@ -3,9 +3,11 @@ import Tts from './images/skills/t-ts.jpg'
 import Treact from './images/skills/t-react.jpg'
 import Tnode from './images/skills/t-node.jpg'
 import Tsvelte from './images/skills/t-svelte.jpg'
+import Tredux from './images/skills/t-redux.jpg'
 import Tangular from './images/skills/t-angular.jpg'
 import Tdeno from './images/skills/t-deno.jpg'
 import Tjquery from './images/skills/t-jquery.jpg'
+import Tp5 from './images/skills/t-p5.jpg'
 
 import Tpython from './images/skills/t-python.jpg'
 import Tdjango from './images/skills/t-django.jpg'
@@ -31,6 +33,13 @@ import Tmatplotlib from './images/skills/t-matplotlib.jpg'
 
 import Tjava from './images/skills/t-java.jpg'
 
+import Tandroid from './images/skills/t-android.jpg'
+
+import Thtml from './images/skills/t-html.jpg'
+import Tcss from './images/skills/t-css.jpg'
+import Tsass from './images/skills/t-sass.jpg'
+import Tbootstrap from './images/skills/t-bootstrap.jpg'
+
 
 
 const skillslist = [
@@ -44,9 +53,12 @@ const skillslist = [
       {"name": "ReactJS", "logo": Treact},
       {"name": "NodeJS", "logo": Tnode},
       {"name": "Svelte", "logo": Tsvelte},
+      {"name": "Redux", "logo": Tredux},
       {"name": "Deno", "logo": Tdeno},
-      {"name": "Angular", "logo": Tangular},
       {"name": "jQuery", "logo": Tjquery},
+      {"name": "Angular", "logo": Tangular},
+      {"name": "p5.js", "logo": Tp5},
+
     ]
   },
   {
@@ -86,8 +98,8 @@ const skillslist = [
     "text": "#fff",
     "skills": [
       {"name": "Git", "logo": Tgit},
-      {"name": "Docker", "logo": Tdocker},
       {"name": "Vagrant", "logo": Tvagrant},
+      {"name": "Docker", "logo": Tdocker},
     ]
   },
   {
@@ -101,37 +113,37 @@ const skillslist = [
       {"name": "Matplotlib", "logo": Tmatplotlib}
     ]
   },
-  {
-    "title": "Programming Languages",
-    "color": "#c84b36",
-    "text": "#fff",
-    "skills": [
-      {"name": "Java", "logo": Tjava},
-      {"name": "C++", "logo": Tsvelte},
-      {"name": "Ruby", "logo": Tsvelte},
-    ]
-  },
+
   {
     "title": "Mobile Technologies",
-    "color": "grey",
+    "color": "#61b086",
     "text": "#000",
     "skills": [
       {"name": "Native", "logo": Treact},
+      {"name": "Studio", "logo": Tandroid},
     ]
   },
 
 
   {
     "title": "Frontend Development",
-    "color": "grey",
-    "text": "#000",
+    "color": "#cc6698",
+    "text": "#fff",
     "skills": [
-      {"name": "HTML", "logo": Tsvelte},
-      {"name": "CSS", "logo": Tsvelte},
-      {"name": "SASS", "logo": Tsvelte},
-      {"name": "Bootstrap", "logo": Tsvelte},
+      {"name": "HTML", "logo": Thtml},
+      {"name": "CSS", "logo": Tcss},
+      {"name": "SASS", "logo": Tsass},
+      {"name": "Bootstrap", "logo": Tbootstrap},
     ]
-  }
+  },
+  {
+    "title": "Others",
+    "color": "#c84b36",
+    "text": "#fff",
+    "skills": [
+      {"name": "Java", "logo": Tjava}
+    ]
+  },
 ]
 
 export default skillslist

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/about.css'
 
+import { Link } from 'react-router-dom'
+
 import Me from '../images/me.jpg'
 
 import Skillslist from '../skills.js'
@@ -31,13 +33,17 @@ class About extends React.Component{
               Born in <b>Colombia</b> and grown in <b>Spain</b>, I consider this last one as my home country.
               However, my professional career launched in London where I coursed and graduated with a first class in <b>Computer Science</b> at Goldsmiths University in 2020.
             </p>
-
             <p>
-              Since I moved to the UK in 2014, I have been working in the industry for different companies or as a freelancer in my spare time. <a>Here</a> is more about my experience.
+              Since I moved to the UK in 2014, I have been working in the industry for different companies or as a freelancer in my spare time.
+               <Link to="/work"> Read more</Link> about my experience.
             </p>
             <p>
-              I am currently working as software developer at a very ambitious and successful startup based in London, VeeLoop, that is revolutionising the way teenegers shop online.
-              We are also building a new project named vHelp which is a secure payment flow for people who need support with shopping during the pandemic.
+              I am currently working as software developer at a very ambitious and successful startup based in London, <b>VeeLoop</b>, that is revolutionising the way teenegers shop online.
+              We are also building a new project named <b>vHelp</b> which is a secure payment flow for people who need support with shopping during the pandemic.
+            </p>
+            <p>
+              I am very keen on improving my current skills and love learning to keep working on new ideas, websites, projects, videos, etc.
+
             </p>
 
             <br />
@@ -81,7 +87,7 @@ class About extends React.Component{
 
 
               <ul>
-                <li>API Design: REST</li>
+                <li>REST API Design</li>
                 <li>Programming Paradigms (OOP, Functional, Declarative, Imperative, Event-Driven, Reactive)</li>
                 <li>AWS</li>
                 <li>LAMP STACK</li>
