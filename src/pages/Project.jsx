@@ -1,7 +1,7 @@
 import React from 'react'
-// import '../styles/project.css'
 
-import { NavLink } from 'react-router-dom'
+
+
 
 class Project extends React.Component{
 
@@ -14,7 +14,7 @@ class Project extends React.Component{
     return(
       <div className="Project Context">
 
-        <iframe src="https://spaceyjs.netlify.app/" width="100%" height="500px"></iframe>
+        Hello world
 
       </div>
     )
