@@ -47,11 +47,9 @@ class About extends React.Component{
 
             <h2>My background</h2>
             <p>
-              My enthusiasm for technology started since I was very little and my dad bought my first laptop.
-              I then became very interested in learning all the possibilities that digital technology entails, but more specifically software development.
-            </p>
-            <p>
-              Soon, that led the learning of programming and creation of personal projects to become something essential in my life and a very exciting hobby, building very solid programming skills.
+            My enthusiasm for technology started since I was a kid, and my father bought me my first computer.
+            I then became very interested in learning digital technology, but more specifically software development.
+            Soon I started learning about programming and it became essential and a very exciting hobby in my life.
             </p>
             <p>
               In 2014, I moved to London to begin my career, and completed a full BTEC course in Information Technology at EHWL College where I expanded my computing knowledge.

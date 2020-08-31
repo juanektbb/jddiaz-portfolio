@@ -3,12 +3,17 @@ import '../styles/chat.css'
 
 import Mail from '../images/mail.png'
 import Phone from '../images/phone.png'
+import Infinity from '../images/infinity.gif'
+
+import emailjs from 'emailjs-com';
 
 class Chat extends React.Component{
 
   constructor(props){
     super(props)
-    this.state = {}
+    this.state = {
+      mail_status: undefined
+    }
   }
 
   getAvailability = () => {
@@ -16,6 +21,24 @@ class Chat extends React.Component{
     const monthNames = ["January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"];
     return monthNames[date.getMonth()] + " " + date.getFullYear();
+  }
+
+  clickLink = (e) => {
+    e.preventDefault()
+
+    this.setState({mail_status: 'loading'})
+
+    emailjs.sendForm('elastic_email_jddiaz', 'template_4aQvws3n', e.target, 'user_FCpAeVCGKglsVQYWPRCdA')
+    .then((result) => {
+      if(result.text === 'OK'){
+        this.setState({mail_status: 'OK'})
+        document.getElementById('contact-form').reset()
+      }else{
+        this.setState({mail_status: 'error'})
+      }
+    }, (error) => {
+      this.setState({mail_status: 'error'})
+    })
   }
 
   render(){
@@ -32,33 +55,53 @@ class Chat extends React.Component{
             </div>
             <p className="contact-msg">Feel free to get in touch with me using this form and I will get back to you very soon.</p>
 
-            <div className="contact-line">
-              <label>Your name <span>*</span></label>
-              <div className="contact-field">
-                <input type="text" name="" placeholder="Eg: Juan Diaz"/>
+            {this.state.mail_status === 'loading' &&
+              <div className="loader-msg">
+                <img src={Infinity} alt='Loading...' />
               </div>
-            </div>
-            <div className="contact-line">
-              <label>Your email <span>*</span></label>
-              <div className="contact-field">
-                <input type="emai" name="" placeholder="Eg: hello@mail.com"/>
+            }
+
+            {this.state.mail_status === 'OK' &&
+              <div className="success-msg">
+                Thank you for your message, I will contact you shortly.
               </div>
-            </div>
-            <div className="contact-line">
-            <label>Your phone number</label>
-              <div className="contact-field">
-                <input type="text" name="" placeholder="123456789..."/>
+            }
+
+            {this.state.mail_status === 'error' &&
+              <div className="error-msg">
+                Something went wrong, try to email me at <b>inf.juandiaz@gmail.com</b>
               </div>
-            </div>
-            <div className="contact-line">
-              <label>Your mesage <span>*</span></label>
-              <div className="contact-field">
-                <textarea placeholder="Let's work together..."></textarea>
+            }
+
+            <form id='contact-form' onSubmit={this.clickLink}>
+              <div className="contact-line">
+                <label>Your name <span>*</span></label>
+                <div className="contact-field">
+                  <input type="text" name="user_name" placeholder="Eg: Juan Diaz"/>
+                </div>
               </div>
-            </div>
-            <div className="contact-line">
-              <input type="submit" value="Send message" />
-            </div>
+              <div className="contact-line">
+                <label>Your email <span>*</span></label>
+                <div className="contact-field">
+                  <input type="email" name="user_email" placeholder="Eg: hello@mail.com"/>
+                </div>
+              </div>
+              <div className="contact-line">
+              <label>Your phone number</label>
+                <div className="contact-field">
+                  <input type="text" name="user_phone" placeholder="123456789..."/>
+                </div>
+              </div>
+              <div className="contact-line">
+                <label>Your mesage <span>*</span></label>
+                <div className="contact-field">
+                  <textarea name="user_message" placeholder="Let's work together..."></textarea>
+                </div>
+              </div>
+              <div className="contact-line">
+                <input type="submit" value="Send message" />
+              </div>
+            </form>
           </div>
         </div>
       </div>

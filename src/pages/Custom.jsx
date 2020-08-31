@@ -13,7 +13,7 @@ class Custom extends React.Component{
   render(){
     return(
       <div className="Custom Context">
-        <div className="main-content">
+        <div className="dynamic-box">
 
           <div className="navigation_pages">
 

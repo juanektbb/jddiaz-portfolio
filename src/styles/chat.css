@@ -18,8 +18,7 @@
   border-radius: 50%;
 }
 .contact-msg{
-  margin: 25px 0;
-
+  margin: 25px 0 20px;
 }
 .contact-line{
   width: 100%;
@@ -60,4 +59,23 @@
 .contact-line input[type=submit]:hover{
   color: #097ab5;
   background-color: #fff;
+}
+.loader-msg{
+  text-align: center;
+  width: 100%;
+}
+.loader-msg img{
+  width: 100px;
+}
+.success-msg{
+  margin-bottom: 20px;
+  padding: 8px;
+  text-align: center;
+  background-color: #c7e6c1;
+}
+.error-msg{
+  margin-bottom: 20px;
+  padding: 8px;
+  text-align: center;
+  background-color: #f4d3d3;
 }
