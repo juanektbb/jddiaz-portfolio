@@ -1,0 +1,63 @@
+.personal-details{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.personal-details div{
+  line-height: 30px;
+  height: 32px;
+  margin-right: 30px;
+}
+.personal-details img{
+  width: 30px;
+  border: 2px solid #333;
+  padding: 3px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.contact-msg{
+  margin: 25px 0;
+
+}
+.contact-line{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact-line label{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+.contact-line label span{
+  color: #ec0000;
+}
+.contact-field input,
+.contact-field textarea{
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+.contact-field textarea{
+  height: 140px;
+  resize: none;
+}
+.contact-line input[type=submit]{
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  float: right;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #097ab5;
+  border: 1px solid #097ab5;
+  color: #fff
+}
+.contact-line input[type=submit]:hover{
+  color: #097ab5;
+  background-color: #fff;
+}
