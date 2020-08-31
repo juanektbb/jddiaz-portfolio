@@ -2,12 +2,10 @@ import React from 'react'
 import '../styles/about.css'
 
 import { Link } from 'react-router-dom'
-
 import Me from '../images/me.jpg'
 
-import Skillslist from '../skills.js'
-
 import Skill from '../components/Skill.jsx'
+import Skillslist from '../skills.js'
 
 class About extends React.Component{
 
@@ -47,20 +45,16 @@ class About extends React.Component{
 
             <h2>My background</h2>
             <p>
-            My enthusiasm for technology started since I was a kid, and my father bought me my first computer.
-            I then became very interested in learning digital technology, but more specifically software development.
-            Soon I started learning about programming and it became essential and a very exciting hobby in my life.
+              My enthusiasm for technology started since I was a kid, and my father bought me my first computer.
+              I then became very interested in learning digital technology, but more specifically software development.
+              Soon I started learning about programming and it became essential and a very exciting hobby in my life.
             </p>
             <p>
-              In 2014, I moved to London to begin my career, and completed a full BTEC course in Information Technology at EHWL College where I expanded my computing knowledge.
-              At the same time, during those years of college I made my first steps in the industry, working as web design freelancer and making websites for customers.
+              In 2014, I moved to London to begin my career achieving a BTEC degree in Information Technology at EHWL College.
+              Three years later I started my university degree in BSc Computer Science at Goldsmiths University and graduated in 2020.
             </p>
             <p>
-              Three years after, I started my university degree in Computer Science at Goldsmiths University.
 
-
-              Finally, I graduated in BSc Computer Science at
-              and I approched again my freelance project which I am very passionate and excited about.
             </p>
           </div>
 
@@ -77,12 +71,14 @@ class About extends React.Component{
 
             <div className="knowledge-container">
               <ul>
+                <li>Programming Paradigms: OOP, Functional, Declarative</li>
                 <li>REST API Design</li>
-                <li>Programming Paradigms (OOP, Functional, Declarative, Imperative, Event-Driven, Reactive)</li>
-                <li>AWS</li>
-                <li>LAMP STACK</li>
-                <li>Unix Systems</li>
-                <li>Shopify</li>
+                <li>Backend Development: MVC, Websockets</li>
+                <li>Frontend Development: SPA, PWA</li>
+                <li>Databases: ORM, Migrations</li>
+                <li>Operating Systems: Linux, MacOS, Windows</li>
+                <li>AWS, Digital Ocean, Heroku, Shopify</li>
+                <li>Unit Testing</li>
               </ul>
             </div>
           </div>

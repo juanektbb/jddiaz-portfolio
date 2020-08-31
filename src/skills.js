@@ -32,6 +32,8 @@ import Tpandas from './images/skills/t-pandas.jpg'
 import Tmatplotlib from './images/skills/t-matplotlib.jpg'
 
 import Tjava from './images/skills/t-java.jpg'
+// import Tcpp from './images/skills/t-cpp.jpg'
+import Tarduino from './images/skills/t-arduino.jpg'
 
 import Tandroid from './images/skills/t-android.jpg'
 
@@ -129,7 +131,8 @@ const skillslist = [
     "color": "#c84b36",
     "text": "#fff",
     "skills": [
-      {"name": "Java", "logo": Tjava}
+      {"name": "Java", "logo": Tjava},
+      {"name": "Arduino", "logo": Tarduino},
     ]
   },
   {

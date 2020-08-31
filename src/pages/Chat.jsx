@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/chat.css'
 
+import emailjs from 'emailjs-com';
+
 import Mail from '../images/mail.png'
 import Phone from '../images/phone.png'
 import Infinity from '../images/infinity.gif'
-
-import emailjs from 'emailjs-com';
 
 class Chat extends React.Component{
 
@@ -19,8 +19,8 @@ class Chat extends React.Component{
   getAvailability = () => {
     const date = new Date()
     const monthNames = ["January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"];
-    return monthNames[date.getMonth()] + " " + date.getFullYear();
+      "July", "August", "September", "October", "November", "December"]
+    return monthNames[date.getMonth()] + " " + date.getFullYear()
   }
 
   clickLink = (e) => {
@@ -63,7 +63,7 @@ class Chat extends React.Component{
 
             {this.state.mail_status === 'OK' &&
               <div className="success-msg">
-                Thank you for your message, I will contact you shortly.
+                Thanks for your message, I will contact you shortly.
               </div>
             }
 
@@ -77,25 +77,28 @@ class Chat extends React.Component{
               <div className="contact-line">
                 <label>Your name <span>*</span></label>
                 <div className="contact-field">
-                  <input type="text" name="user_name" placeholder="Eg: Juan Diaz"/>
+                  <input type="text" name="user_name" pattern="^[a-zA-Z ,.'-]{3,30}+$"
+                    placeholder="Eg: Juan Diaz" required="required"/>
                 </div>
               </div>
               <div className="contact-line">
                 <label>Your email <span>*</span></label>
                 <div className="contact-field">
-                  <input type="email" name="user_email" placeholder="Eg: hello@mail.com"/>
+                  <input type="email" name="user_email"
+                    placeholder="Eg: hello@mail.com" required="required"/>
                 </div>
               </div>
               <div className="contact-line">
               <label>Your phone number</label>
                 <div className="contact-field">
-                  <input type="text" name="user_phone" placeholder="123456789..."/>
+                  <input type="text" name="user_phone" pattern="[0-9+ )(]{6,30}"
+                    placeholder="123456789..."/>
                 </div>
               </div>
               <div className="contact-line">
                 <label>Your mesage <span>*</span></label>
                 <div className="contact-field">
-                  <textarea name="user_message" placeholder="Let's work together..."></textarea>
+                  <textarea name="user_message" placeholder="Let's work together..." required="required"></textarea>
                 </div>
               </div>
               <div className="contact-line">
