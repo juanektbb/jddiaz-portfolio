@@ -1,10 +1,8 @@
 import React from 'react'
 
-
 import { Link } from 'react-router-dom'
 
 class Tile extends React.Component{
-
 
   constructor(props){
     super(props)
@@ -25,18 +23,24 @@ class Tile extends React.Component{
     return(
       <div className="Tile" onMouseOver={this.hovereffect} onMouseOut={this.hoveroff}>
 
-        <img src={this.props.img} className={"tile-bg " + (this.state.hover ? "hovereffect" : "")} alt={this.props.title}/>
-        <div className="tile-category">{!this.state.hover && this.props.category}</div>
+        <img src={this.props.item.img} alt={this.props.item.title}
+          className={"tile-bg " + (this.state.hover ? "hovereffect" : "")}/>
+
+        <div className={"tile-category " + (this.props.item.light ? "" : "tile-category-light ")}>
+          {!this.state.hover && this.props.item.category}
+        </div>
 
         <div className={"tile-cover " + (this.state.hover ? "showup" : "")}>
           <div className={"tile-title " + (this.state.hover ? "tile-title-effect" : "")}>
-            {this.props.title}
+            {this.props.item.title}
           </div>
 
-          <Link to={this.props.url}>
-            <div className="tile-details">
-              What is this?
-            </div>
+          <div className="tile-text">
+            {this.props.item.short_desc}
+          </div>
+
+          <Link to={this.props.item.url}>
+            <div className="tile-details">What is this?</div>
           </Link>
         </div>
       </div>

@@ -19,7 +19,7 @@ class Gallery extends React.Component{
     return(
       <div className="Gallery Context">
         {this.state.tiles.map((item, key) =>
-          <Tile key={key} title={item.title} category={item.category} img={item.img} url={item.url}/>
+          <Tile key={key} item={item}/>
         )}
       </div>
     )
