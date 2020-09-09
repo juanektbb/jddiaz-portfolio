@@ -41,14 +41,7 @@ h5{
 p{
   color: #444;
 }
-.btn{
-  background-color: #ad3a4a;
-  padding: 10px;
-  border-radius: 5px;
-}
-.btn:hover{
-  background-color: #911d2c;
-}
+
 
 /* Main layout */
 .App{

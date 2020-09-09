@@ -12,7 +12,6 @@ import About from './pages/About'
 import Work from './pages/Work'
 import Chat from './pages/Chat'
 import Custom from './pages/Custom'
-import Project from './pages/Project'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
@@ -39,6 +38,7 @@ class App extends React.Component{
                   title={item.title}
                   img={item.img}
                   website={item.website}
+                  github={item.github}
                   short_desc={item.short_desc}
                   long_desc={item.long_desc}
 
@@ -50,9 +50,6 @@ class App extends React.Component{
                 />)}
               />
             )}
-
-            <Route exact path='/project/spacey' component={Project} />
-
           </Switch>
         </BrowserRouter>
       </div>

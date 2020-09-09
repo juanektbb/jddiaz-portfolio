@@ -10,7 +10,6 @@
 .Menu{
   border-right: 1px solid var(--color-menu);
   background-color: var(--color-menu);
-
 }
 .Header{
   height: 100px;
