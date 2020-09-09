@@ -45,16 +45,17 @@ class About extends React.Component{
 
             <h2>My background</h2>
             <p>
-              My enthusiasm for technology started since I was a kid, and my father bought me my first computer.
+              My enthusiasm for technology started since I was a kid when my father bought me my first computer.
               I then became very interested in learning digital technology, but more specifically software development.
-              Soon I started learning about programming and it became essential and a very exciting hobby in my life.
+              Quickly, programming and designing websites became essential in my life, but more meaningful, in a very exciting hobby.
             </p>
             <p>
-              In 2014, I moved to London to begin my career achieving a BTEC degree in Information Technology at EHWL College.
+              In 2014, I moved to London to begin my career studying and achieving a BTEC course in Information Technology at EHWL College.
               Three years later I started my university degree in BSc Computer Science at Goldsmiths University and graduated in 2020.
             </p>
             <p>
-
+              During those six years of studies, I made my first steps in the industry working as a web design freelancer and also for other companies.
+              Follow my experience or read about freelancing <Link to="/work">in this page</Link>.
             </p>
           </div>
 
