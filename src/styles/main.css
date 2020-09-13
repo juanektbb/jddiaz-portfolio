@@ -61,7 +61,7 @@ p{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px){
   .App{
     display: block;
   }
@@ -77,10 +77,11 @@ p{
   }
 }
 
-@media screen and (max-width: 420px){
-body{
-  font-size: 15px
-}
+@media screen and (max-width: 492px){
+  body{
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 
 /* Secundary layouts */
@@ -118,4 +119,52 @@ body{
   border: 1px solid #eaeaea;
   min-height: 100%;
   background-color: #fff;
+}
+
+@media screen and (max-width: 1320px){
+  .double-column{
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .double-column{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 1100px){
+  .double-column{
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1050px){
+  .double-column-box{
+    display: block;
+  }
+  .double-column{
+    padding: 0 200px;
+  }
+  .double-column:first-child{
+    border-right: none;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 934px){
+  .double-column{
+    padding: 0 150px;
+  }
+}
+@media screen and (max-width: 832px){
+  .double-column{
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 732px){
+  .double-column{
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 632px){
+  .double-column{
+    padding: 0 20px;
+  }
 }

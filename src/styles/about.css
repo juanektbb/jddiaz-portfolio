@@ -75,3 +75,66 @@
 .knowledge-container ul li{
   line-height: 30px;
 }
+
+@media screen and (max-width: 1420px){
+  .me-box{
+    max-width: 180px;
+    margin-bottom: 5px;
+  }
+  .about-area p{
+    text-align: justify;
+  }
+  .skill-badge p{
+    font-size: 8.5px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .skill-badge p{
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 1050px){
+
+}
+@media screen and (max-width: 572px){
+  .me-box{
+    max-width: 130px;
+    margin-bottom: -5px;
+  }
+  .me-caption{
+    margin-top: -8px;
+    font-size: 9px;
+  }
+  .skills-container{
+    display: block;
+  }
+  .Skill{
+    margin-bottom: 12px;
+  }
+  .skill-badge{
+    flex-basis: 16.66%;
+  }
+}
+@media screen and (max-width: 520px){
+  .knowledge-container ul{
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 460px){
+  .me-box{
+    max-width: 120px;
+    margin-bottom: 0
+  }
+  .me-caption{
+    display: none
+  }
+}
+@media screen and (max-width: 440px){
+  .skill-badge{
+    flex-basis: 20%;
+  }
+  .about-area p{
+    text-align: left;
+  }
+}
