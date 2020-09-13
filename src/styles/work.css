@@ -4,7 +4,14 @@
   --items-color: #097ab5;
 }
 
-/* Column in left - Work */
+.Work p{
+  text-align: justify;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 .timeline-paragraph{
   margin-bottom: 40px;
 }
@@ -93,6 +100,46 @@
   font-size: 16px;
   line-height: 18px;
 }
+.last-heading{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.me-box-work{
+  max-width: 200px;
+  margin: 8px 0 6px 18px;
+  float: right;
+}
+.me-work{
+  width: 100%;
+  border: 1px solid #888;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.me-caption-work{
+  text-align: center;
+  margin-top: -2px;
+  color: #666;
+  font-size: 14px;
+}
+.download-cv{
+  background-color: #f6f6f6;
+  width: 200px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 50px auto 0;
+  line-height: 22px;
+}
+.download-cv:hover{
+  background-color: #eee;
+}
+.download-cv img{
+  width: 16px
+}
 
 @media screen and (max-width: 600px){
   .timeline::after{
@@ -115,47 +162,12 @@
   .right-side{
     left: 0%;
   }
+  .experience-container{
+    margin-bottom: 10px;
+  }
 }
-
-/* Column in right - Freelance */
-.download-cv{
-  background-color: #f6f6f6;
-  width: 200px;
-  text-align: center;
-  display: block;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 5px;
-  cursor: pointer;
-  float: right;
-  margin: 9px 0 10px 10px;
-  line-height: 22px;
-}
-.download-cv:hover{
-  background-color: #eee;
-}
-.download-cv img{
-  width: 16px
-}
-.last-heading{
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-.me-box-work{
-  max-width: 200px;
-  margin: 8px 0 6px 18px;
-  float: right;
-}
-.me-work{
-  width: 100%;
-  border: 1px solid #888;
-  border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.me-caption-work{
-  text-align: center;
-  margin-top: -2px;
-  color: #666;
-  font-size: 14px;
+@media screen and (max-width: 492px){
+  .timeline-paragraph{
+    text-align: justify;
+  }
 }

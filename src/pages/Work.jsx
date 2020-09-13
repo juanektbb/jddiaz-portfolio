@@ -69,11 +69,6 @@ class Work extends React.Component{
           </div>
 
           <div className="double-column">
-            <div className="download-cv">
-              <div>Download CV</div>
-              <img src={Download} alt='Download icon'/>
-            </div>
-
             <h2>Freelancer or Contractor</h2>
             <h4>Shall we work on your next project?</h4>
             <h5 className="last-heading">Let's chat and share ideas!</h5>
@@ -94,6 +89,11 @@ class Work extends React.Component{
             <p>
               If this sounds interesting to you, <Link to="/chat">get in touch</Link> to discuss your project in more detail, share ideas and get an amazing outcome from each others collaboration.
             </p>
+
+            <div className="download-cv">
+              <div>Download CV</div>
+              <img src={Download} alt='Download icon'/>
+            </div>
           </div>
         </div>
       </div>

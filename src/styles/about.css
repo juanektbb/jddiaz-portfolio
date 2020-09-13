@@ -18,6 +18,12 @@
 }
 .about-area p{
   margin-top: 0;
+  text-align: justify;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 .skills-title-one{
   text-align: center;
@@ -81,21 +87,14 @@
     max-width: 180px;
     margin-bottom: 5px;
   }
-  .about-area p{
-    text-align: justify;
-  }
   .skill-badge p{
     font-size: 8.5px;
   }
 }
-
 @media screen and (max-width: 1200px){
   .skill-badge p{
     font-size: 9px;
   }
-}
-@media screen and (max-width: 1050px){
-
 }
 @media screen and (max-width: 572px){
   .me-box{
@@ -134,7 +133,12 @@
   .skill-badge{
     flex-basis: 20%;
   }
-  .about-area p{
-    text-align: left;
+}
+@media screen and (max-width: 382px){
+  .skills-title-two{
+    font-size: 16.5px;
+  }
+  .knowledge-container ul{
+    font-size: 14px;
   }
 }
