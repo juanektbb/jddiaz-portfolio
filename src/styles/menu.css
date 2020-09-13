@@ -130,3 +130,15 @@ footer{
     display: flex;
   }
 }
+@media screen and (max-width: 600px){
+  .HeaderRes{
+    font-size: 20px;
+  }
+  .Opener{
+    padding: 15px;
+    padding-left: 10px;
+  }
+  .Opener img{
+    height: 30px;
+  }
+}
