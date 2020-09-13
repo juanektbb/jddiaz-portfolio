@@ -1,8 +1,8 @@
 import React from 'react'
+
 import '../styles/work.css'
 
 import Me2 from '../images/me_2.jpg'
-import Download from '../images/download.png'
 
 import { Link } from 'react-router-dom'
 

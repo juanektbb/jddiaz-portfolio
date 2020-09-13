@@ -61,7 +61,7 @@ const Projects = [
     "img": DataMining,
     "url": "/datamining",
     "website": "",
-    "github": "",
+    "github": "https://github.com/juanektbb/data-mining-assignment",
     "light": true,
     "short_desc": "This project of Data Mining was the main assignment of the module at University, in which I applied all the techniques taught.",
     "long_desc": ""
@@ -72,7 +72,7 @@ const Projects = [
     "img": ML,
     "url": "/machinelearning",
     "website": "",
-    "github": "",
+    "github": "https://github.com/juanektbb/logistic-regression-assignment",
     "light": false,
     "short_desc": "This is the second assignment of Machine Learning at University, where I applied more complex knowledge of Logistic Regression.",
     "long_desc": ""
@@ -82,7 +82,7 @@ const Projects = [
     "category": "Job Project",
     "img": StickySisters,
     "url": "/stickysisters",
-    "website": "",
+    "website": "http://www.stickysisters.co.uk/",
     "github": "",
     "light": false,
     "short_desc": "Sticky Sisters is a new and exciting fast-casual dining restaurant, specialising in chicken wings and tasty sauces.",
@@ -94,7 +94,7 @@ const Projects = [
     "img": SpaceY,
     "url": "/spaceyjs",
     "website": "https://spaceyjs.netlify.app/",
-    "github": "",
+    "github": "https://github.com/juanektbb/SpaceY.js",
     "light": true,
     "short_desc": "SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. This personal project proved my logic and programming skills.",
     "long_desc": ""
@@ -104,8 +104,8 @@ const Projects = [
     "category": "Personal Project",
     "img": Drandrop,
     "url": "/drandrop",
-    "website": "",
-    "github": "",
+    "website": "https://drandropjs.netlify.app/",
+    "github": "https://github.com/juanektbb/drandrop.js",
     "light": false,
     "short_desc": "",
     "long_desc": ""

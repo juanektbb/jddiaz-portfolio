@@ -1,3 +1,6 @@
+.Custom p{
+
+}
 .navigation_pages{
   position: relative;
   height: 50px;
@@ -27,7 +30,7 @@
 .custom-header{
   width: 50%;
   min-width: 750px;
-  margin: 50px auto 20px;;
+  margin: 50px auto 20px;
   height: 250px;
 }
 .custom-banner{
@@ -48,6 +51,12 @@
   width: 320px;
   line-height: 25px;
   font-weight: normal;
+  text-align: justify;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 .custom-links{
   margin-top: 30px;
@@ -84,11 +93,49 @@ a.github:hover{
   width: 50%;
   min-width: 750px;
   margin: 40px auto 20px;
+  text-align: justify;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 @media screen and (max-width: 800px){
+  .custom-header{
+    width: 100%;
+    padding: 0 20px;
+    min-width: auto;
+    height: auto;
+  }
   .custom-body{
-    width: calc(100% - 20px);
+    width: 100%;
+    padding: 0 20px;
     min-width: auto;
   }
+  .custom-banner{
+    width: 50%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 724px){
+  .short_desc{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .custom-banner{
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 600px){
+  .custom-banner{
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 580px){
+
 }

@@ -32,6 +32,12 @@ class MenuRes extends React.Component{
     })
   }
 
+  force_close = () => {
+    this.setState({
+      "accordeon_open": false
+    })
+  }
+
   render(){
     return(
       <div className="MenuResBox">
@@ -62,7 +68,7 @@ class MenuRes extends React.Component{
         <div className={"Accordeon" + (this.state.accordeon_open ? " AccordeonOpen": "")}>
           {this.state.options.map((item, key) =>
             <NavLink key={key} to={item.to} exact activeClassName="active-option">
-              <div className="AccordeonOption">{item.title}</div>
+              <div className="AccordeonOption" onClick={this.force_close}>{item.title}</div>
             </NavLink>
           )}
         </div>
