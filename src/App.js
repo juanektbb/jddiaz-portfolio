@@ -2,9 +2,11 @@ import React from 'react'
 import './styles/main.css'
 
 import Projects from './projects.js'
+import Options from './data/options.js'
 
 //COMPONENTS
 import Menu from './components/Menu'
+import MenuRes from './components/MenuRes'
 
 //PAGES
 import Gallery from './pages/Gallery'
@@ -21,7 +23,8 @@ class App extends React.Component{
     return(
       <div className="App">
         <BrowserRouter>
-          <Menu />
+          <Menu options={Options}/>
+          <MenuRes options={Options}/>
 
           <Switch>
             <Route exact path='/' component={Gallery} />

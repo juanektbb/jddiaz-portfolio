@@ -15,24 +15,7 @@ class Menu extends React.Component{
     super(props)
 
     this.state = {
-      "options": [{
-        "to": "/",
-        "title": "Projects"
-      },
-      {
-        "to": "/about",
-        "title": "About"
-      },
-      {
-        "to": "/work",
-        "title": "My Work"
-      },
-      {
-        "to": "/chat",
-        "title": "Let's Chat"
-      }],
-
-      //Social media buttons
+      "options": [],
       "GhButton": {
         "button": GhBlack,
         "background": "#24292e",
@@ -65,6 +48,11 @@ class Menu extends React.Component{
   }
 
   componentDidMount(){
+    if(this.state.options !== this.props.options){
+      this.setState({
+        "options": this.props.options
+      })
+    }
   }
 
   render(){
@@ -74,16 +62,13 @@ class Menu extends React.Component{
           Juan D. Diaz
         </header>
 
-        {/* Menu options */}
         {this.state.options.map((item, key) =>
           <NavLink key={key} to={item.to} exact activeClassName="active-option">
             <div className="Option">{item.title}</div>
           </NavLink>
         )}
 
-        {/* Social media buttons */}
         <section className="Social">
-
           <a href="https://www.linkedin.com/in/juanektbb/" target="_blank" rel="noopener noreferrer">
             <div className="Media" onMouseOver={this.mediaOnMouseOver} onMouseOut={this.mediaOnMouseOut}
               id="InButton" style={{backgroundColor: this.state.InButton.background, color: this.state.InButton.color}}>

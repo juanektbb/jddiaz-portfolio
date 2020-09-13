@@ -74,12 +74,19 @@
   height: 60px;
   line-height: 60px;
   font-size: 20px;
-  margin: 10px auto 0;
   text-align: center;
   width: 200px;
   color: white;
   cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  margin-left: calc(50% - 100px)
 }
 .tile-details:hover{
   box-shadow: 0 0 20px #ffffff;
+}
+
+
+@media screen and (max-width: 1100px) {
+  
 }

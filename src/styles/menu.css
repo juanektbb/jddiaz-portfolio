@@ -4,6 +4,7 @@
   --color-hover: #4f4f60;
 }
 
+/* NORMAL MENU */
 .Menu a, .Menu a:hover, .Menu a:link, .Menu a:visited{
   color: #eee;
 }
@@ -30,12 +31,10 @@
 }
 .Option:hover{
   background-color: var(--color-hover);
-  /* border-left: 5px solid var(--color-menu); */
   transition: border-left 1s;
 }
 .active-option .Option{
   background-color: #4f4f60;
-  /* border-left: 3px solid var(--color-menu); */
 }
 .Social{
   margin-top: 25px;
@@ -62,4 +61,72 @@ footer{
   text-align: center;
   bottom: 5px;
   width: 100%;
+}
+
+/* RESPONSIVE MENU */
+.MenuResBox a, .MenuResBox a:hover, .MenuResBox a:link, .MenuResBox a:visited{
+  color: #eee;
+}
+.MenuRes{
+  border-right: 1px solid var(--color-menu);
+  background-color: var(--color-menu);
+  height: 60px;
+  padding: 0 10px;
+  display: none;
+  justify-content: space-between;
+}
+.HeaderRes{
+  height: 60px;
+  line-height: 60px;
+  width: 135px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: 'Dancing Script', sans-serif;
+  color: #eee;
+}
+.ContentLeft{
+  display: flex
+}
+.Opener{
+  height: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+.Opener img{
+  height: 40px;
+}
+.MediaRes{
+  height: 60px;
+  width: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.MediaRes img{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 30px;
+}
+.Accordeon{
+  display: none
+}
+.AccordeonOption{
+  width: 100%;
+  text-align: right;
+  padding: 14px;
+  font-size: 20px;
+  background-color: var(--color-option);
+  cursor: pointer;
+}
+.active-option .AccordeonOption{
+  background-color: #4f4f60;
+}
+.AccordeonOpen{
+  display: block;
+}
+@media screen and (max-width: 1200px){
+  .MenuRes{
+    display: flex;
+  }
 }

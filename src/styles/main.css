@@ -60,6 +60,23 @@ p{
   padding: 5px;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .App{
+    display: block;
+  }
+  .Menu{
+    display: none
+  }
+  .MenuRes{
+    display: flex;
+  }
+  .Context{
+    margin-left: 0;
+    width: calc(100%);
+  }
+}
+
 /* Secundary layouts */
 .double-column-box{
   border: 1px solid #eaeaea;
