@@ -25,7 +25,6 @@ class Chat extends React.Component{
 
   clickLink = (e) => {
     e.preventDefault()
-
     this.setState({mail_status: 'loading'})
 
     emailjs.sendForm('elastic_email_jddiaz', 'template_4aQvws3n', e.target, 'user_FCpAeVCGKglsVQYWPRCdA')

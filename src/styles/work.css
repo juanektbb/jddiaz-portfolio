@@ -114,31 +114,13 @@
   border: 1px solid #888;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 12px;
 }
 .me-caption-work{
   text-align: center;
   margin-top: -2px;
   color: #666;
   font-size: 14px;
-}
-.download-cv{
-  background-color: #f6f6f6;
-  width: 200px;
-  text-align: center;
-  display: block;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 5px;
-  cursor: pointer;
-  margin: 50px auto 0;
-  line-height: 22px;
-}
-.download-cv:hover{
-  background-color: #eee;
-}
-.download-cv img{
-  width: 16px
 }
 
 @media screen and (max-width: 600px){
@@ -169,5 +151,20 @@
 @media screen and (max-width: 492px){
   .timeline-paragraph{
     text-align: justify;
+  }
+}
+@media screen and (max-width: 575px){
+  .me-box-work{
+    max-width: 180px;
+  }
+}
+@media screen and (max-width: 460px){
+  .me-box-work{
+    max-width: 160px;
+  }
+}
+@media screen and (max-width: 390px){
+  .me-box-work{
+    max-width: 130px;
   }
 }

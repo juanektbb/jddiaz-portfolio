@@ -96,6 +96,11 @@
     font-size: 9px;
   }
 }
+@media screen and (max-width: 654px){
+  .me-box{
+    margin-right: 20px;
+  }
+}
 @media screen and (max-width: 572px){
   .me-box{
     max-width: 130px;
@@ -103,7 +108,7 @@
   }
   .me-caption{
     margin-top: -8px;
-    font-size: 9px;
+    font-size: 9.5px;
   }
   .skills-container{
     display: block;
@@ -124,9 +129,6 @@
   .me-box{
     max-width: 120px;
     margin-bottom: 0
-  }
-  .me-caption{
-    display: none
   }
 }
 @media screen and (max-width: 440px){

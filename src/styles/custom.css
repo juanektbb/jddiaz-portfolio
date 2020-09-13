@@ -85,3 +85,10 @@ a.github:hover{
   min-width: 750px;
   margin: 40px auto 20px;
 }
+
+@media screen and (max-width: 800px){
+  .custom-body{
+    width: calc(100% - 20px);
+    min-width: auto;
+  }
+}

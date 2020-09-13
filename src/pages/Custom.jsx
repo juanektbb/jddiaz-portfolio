@@ -41,9 +41,10 @@ class Custom extends React.Component{
             <h1>{this.props.title}</h1>
             <h5 className="short_desc">{this.props.short_desc}</h5>
             <div className="custom-links">
+              {this.props.website !== "" &&
               <a href={this.props.website} target="_blank" rel="noopener noreferrer" className="btn">
                 Live Project
-              </a>
+              </a>}
 
               {this.props.github !== "" &&
               <a href={this.props.github} target="_blank" rel="noopener noreferrer" className="github">

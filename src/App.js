@@ -4,11 +4,9 @@ import './styles/main.css'
 import Projects from './projects.js'
 import Options from './data/options.js'
 
-//COMPONENTS
 import Menu from './components/Menu'
 import MenuRes from './components/MenuRes'
 
-//PAGES
 import Gallery from './pages/Gallery'
 import About from './pages/About'
 import Work from './pages/Work'
@@ -32,9 +30,7 @@ class App extends React.Component{
             <Route exact path='/work' component={Work} />
             <Route exact path='/chat' component={Chat} />
 
-            {/* Loop the projects and create a page for each of them */}
             {Projects.map((item, key) =>
-
               <Route exact path={item.url} key={key} render={(props) =>
                 (<Custom
                   {...props}
