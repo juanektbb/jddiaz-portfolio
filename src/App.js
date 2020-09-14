@@ -34,12 +34,7 @@ class App extends React.Component{
               <Route exact path={item.url} key={key} render={(props) =>
                 (<Custom
                   {...props}
-                  title={item.title}
-                  img={item.img}
-                  website={item.website}
-                  github={item.github}
-                  short_desc={item.short_desc}
-                  long_desc={item.long_desc}
+                  item={item}
 
                   prev_page={key !== 0 ? Projects[key-1].url : "#"}
                   prev_page_title={key !== 0 ? Projects[key-1].title : "#"}
