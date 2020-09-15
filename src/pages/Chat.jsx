@@ -57,20 +57,17 @@ class Chat extends React.Component{
             {this.state.mail_status === 'loading' &&
               <div className="loader-msg">
                 <img src={Infinity} alt='Loading...' />
-              </div>
-            }
+              </div>}
 
             {this.state.mail_status === 'OK' &&
               <div className="success-msg">
                 Thanks for your message, I will contact you shortly.
-              </div>
-            }
+              </div>}
 
             {this.state.mail_status === 'error' &&
               <div className="error-msg">
                 Something went wrong, try to email me at <b>inf.juandiaz@gmail.com</b>
-              </div>
-            }
+              </div>}
 
             <form id='contact-form' onSubmit={this.clickLink}>
               <div className="contact-line">

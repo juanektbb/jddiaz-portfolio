@@ -104,7 +104,7 @@
 @media screen and (max-width: 572px){
   .me-box{
     max-width: 130px;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
   }
   .me-caption{
     margin-top: -8px;

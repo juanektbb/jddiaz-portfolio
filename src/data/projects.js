@@ -1,12 +1,12 @@
-import Vhelp from '../images/bg-vhelp.png'
-import VeeLoop from '../images/bg-veeloop.png'
-import Karali from '../images/bg-karali.png'
-import DataMining from '../images/bg-datamining.png'
-import ML from '../images/bg-ml.png'
-import StickySisters from '../images/bg-stickysisters.png'
-import MP3D from '../images/bg-mp3d.png'
-import SpaceY from '../images/bg-spacey.png'
-import Drandrop from '../images/bg-drandrop.png'
+import Vhelp from '../images/bgs/bg-vhelp.png'
+import VeeLoop from '../images/bgs/bg-veeloop.png'
+import Karali from '../images/bgs/bg-karali.png'
+import DataMining from '../images/bgs/bg-datamining.png'
+import ML from '../images/bgs/bg-ml.png'
+import StickySisters from '../images/bgs/bg-stickysisters.png'
+import MP3D from '../images/bgs/bg-mp3d.png'
+import SpaceY from '../images/bgs/bg-spacey.png'
+import Drandrop from '../images/bgs/bg-drandrop.png'
 
 const Projects = [
   {

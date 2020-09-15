@@ -1,10 +1,9 @@
 import React from 'react'
-
 import '../styles/work.css'
 
-import Me2 from '../images/me_2.jpg'
-
 import { Link } from 'react-router-dom'
+
+import Me2 from '../images/me_2.jpg'
 
 class Work extends React.Component{
 

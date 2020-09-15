@@ -40,7 +40,6 @@ class About extends React.Component{
             <p>
               As I am very passionate about software, I love learning and keep up improving my skills and working on new ideas and side projects.
             </p>
-
             <br />
 
             <h2>My background</h2>
@@ -61,7 +60,6 @@ class About extends React.Component{
 
           <div className="double-column">
             <h5 className="skills-title-one">...I have experienced these techs...</h5>
-
             <div className="skills-container">
               {Skillslist.map((item, key) =>
                 <Skill key={key} title={item.title} skills={item.skills} color={item.color} text={item.text} />
@@ -69,7 +67,6 @@ class About extends React.Component{
             </div>
 
             <h5 className="skills-title-two">More skills and computing experience</h5>
-
             <div className="knowledge-container">
               <ul>
                 <li>Programming Paradigms: OOP, Functional, Declarative</li>

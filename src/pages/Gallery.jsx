@@ -1,5 +1,4 @@
 import React from 'react'
-
 import '../styles/gallery.css'
 
 import Projects from '../data/projects.js'
