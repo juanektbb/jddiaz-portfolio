@@ -1,7 +1,9 @@
 import React from 'react'
 import './styles/main.css'
 
-import Projects from './projects.js'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import Projects from './data/projects.js'
 import Options from './data/options.js'
 
 import Menu from './components/Menu'
@@ -12,8 +14,6 @@ import About from './pages/About'
 import Work from './pages/Work'
 import Chat from './pages/Chat'
 import Custom from './pages/Custom'
-
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 class App extends React.Component{
 

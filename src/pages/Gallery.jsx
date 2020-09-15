@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../styles/gallery.css'
 
-import Projects from '../projects.js'
+import Projects from '../data/projects.js'
 
 import Tile from '../components/Tile'
 

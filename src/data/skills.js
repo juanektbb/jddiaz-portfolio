@@ -1,50 +1,50 @@
-import Tjs from './images/skills/t-js.jpg'
-import Tts from './images/skills/t-ts.jpg'
-import Treact from './images/skills/t-react.jpg'
-import Tnode from './images/skills/t-node.jpg'
-import Tsvelte from './images/skills/t-svelte.jpg'
-import Tredux from './images/skills/t-redux.jpg'
-import Tangular from './images/skills/t-angular.jpg'
-import Tdeno from './images/skills/t-deno.jpg'
-import Tjquery from './images/skills/t-jquery.jpg'
-import Tp5 from './images/skills/t-p5.jpg'
+import Tjs from '../images/skills/t-js.jpg'
+import Tts from '../images/skills/t-ts.jpg'
+import Treact from '../images/skills/t-react.jpg'
+import Tnode from '../images/skills/t-node.jpg'
+import Tsvelte from '../images/skills/t-svelte.jpg'
+import Tredux from '../images/skills/t-redux.jpg'
+import Tangular from '../images/skills/t-angular.jpg'
+import Tdeno from '../images/skills/t-deno.jpg'
+import Tjquery from '../images/skills/t-jquery.jpg'
+import Tp5 from '../images/skills/t-p5.jpg'
 
-import Tpython from './images/skills/t-python.jpg'
-import Tdjango from './images/skills/t-django.jpg'
-import Tflask from './images/skills/t-flask.jpg'
+import Tpython from '../images/skills/t-python.jpg'
+import Tdjango from '../images/skills/t-django.jpg'
+import Tflask from '../images/skills/t-flask.jpg'
 
-import Tphp from './images/skills/t-php.jpg'
-import Tsymfony from './images/skills/t-symfony.jpg'
-import Twordpress from './images/skills/t-wordpress.jpg'
+import Tphp from '../images/skills/t-php.jpg'
+import Tsymfony from '../images/skills/t-symfony.jpg'
+import Twordpress from '../images/skills/t-wordpress.jpg'
 
-import Tmysql from './images/skills/t-mysql.jpg'
-import Tpostgresql from './images/skills/t-postgresql.jpg'
-import Tmongodb from './images/skills/t-mongodb.jpg'
-import Tsqlite from './images/skills/t-sqlite.jpg'
+import Tmysql from '../images/skills/t-mysql.jpg'
+import Tpostgresql from '../images/skills/t-postgresql.jpg'
+import Tmongodb from '../images/skills/t-mongodb.jpg'
+import Tsqlite from '../images/skills/t-sqlite.jpg'
 
-import Tgit from './images/skills/t-git.jpg'
-import Tdocker from './images/skills/t-docker.jpg'
-import Tvagrant from './images/skills/t-vagrant.jpg'
+import Tgit from '../images/skills/t-git.jpg'
+import Tdocker from '../images/skills/t-docker.jpg'
+import Tvagrant from '../images/skills/t-vagrant.jpg'
 
-import Tscikit from './images/skills/t-scikit.jpg'
-import Tnumpy from './images/skills/t-numpy.jpg'
-import Tpandas from './images/skills/t-pandas.jpg'
-import Tmatplotlib from './images/skills/t-matplotlib.jpg'
+import Tscikit from '../images/skills/t-scikit.jpg'
+import Tnumpy from '../images/skills/t-numpy.jpg'
+import Tpandas from '../images/skills/t-pandas.jpg'
+import Tmatplotlib from '../images/skills/t-matplotlib.jpg'
 
-import Tjava from './images/skills/t-java.jpg'
-// import Tcpp from './images/skills/t-cpp.jpg'
-import Tarduino from './images/skills/t-arduino.jpg'
+import Tjava from '../images/skills/t-java.jpg'
+// import Tcpp from '../images/skills/t-cpp.jpg'
+import Tarduino from '../images/skills/t-arduino.jpg'
 
-import Tandroid from './images/skills/t-android.jpg'
+import Tandroid from '../images/skills/t-android.jpg'
 
-import Thtml from './images/skills/t-html.jpg'
-import Tcss from './images/skills/t-css.jpg'
-import Tsass from './images/skills/t-sass.jpg'
-import Tbootstrap from './images/skills/t-bootstrap.jpg'
+import Thtml from '../images/skills/t-html.jpg'
+import Tcss from '../images/skills/t-css.jpg'
+import Tsass from '../images/skills/t-sass.jpg'
+import Tbootstrap from '../images/skills/t-bootstrap.jpg'
 
-import Tphotoshop from './images/skills/t-photoshop.jpg'
-import Tpremier from './images/skills/t-premier.jpg'
-import Teffects from './images/skills/t-effects.jpg'
+import Tphotoshop from '../images/skills/t-photoshop.jpg'
+import Tpremier from '../images/skills/t-premier.jpg'
+import Teffects from '../images/skills/t-effects.jpg'
 
 const skillslist = [
   {
@@ -62,7 +62,6 @@ const skillslist = [
       {"name": "jQuery", "logo": Tjquery},
       {"name": "Angular", "logo": Tangular},
       {"name": "p5.js", "logo": Tp5},
-
     ]
   },
   {

@@ -1,8 +1,7 @@
 import React from 'react'
+import '../styles/menu.css'
 
 import { NavLink } from 'react-router-dom'
-
-import '../styles/menu.css'
 
 import GhWhite from '../images/github_100px_1.png'
 import GhBlack from '../images/github_100px_2.png'

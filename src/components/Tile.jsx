@@ -22,7 +22,6 @@ class Tile extends React.Component{
   render(){
     return(
       <div className="Tile" onMouseOver={this.hovereffect} onMouseOut={this.hoveroff}>
-
         <img src={this.props.item.img} alt={this.props.item.title}
           className={"tile-bg " + (this.state.hover ? "hovereffect" : "")}/>
 

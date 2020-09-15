@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Me from '../images/me.jpg'
 
 import Skill from '../components/Skill.jsx'
-import Skillslist from '../skills.js'
+import Skillslist from '../data/skills.js'
 
 class About extends React.Component{
 

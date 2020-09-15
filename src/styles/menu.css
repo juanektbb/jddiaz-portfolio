@@ -98,15 +98,11 @@ footer{
 }
 .MediaRes{
   height: 60px;
-  width: 50px;
-  position: relative;
+  padding: 10px;
   cursor: pointer;
 }
 .MediaRes img{
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  width: 30px;
+  height: 40px;
 }
 .Accordeon{
   display: none
@@ -135,9 +131,15 @@ footer{
   .HeaderRes{
     font-size: 20px;
   }
+  .MediaRes{
+    padding: 15px 7.5px;
+  }
+  .MediaRes img{
+    height: 30px;
+  }
   .Opener{
     padding: 15px;
-    padding-left: 10px;
+    padding-left: 7.5px;
   }
   .Opener img{
     height: 30px;

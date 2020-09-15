@@ -14,7 +14,6 @@ class Skill extends React.Component{
           {this.props.title}
         </div>
 
-        {/* Container of skills */}
         <div className="skill-body">
           {this.props.skills.map((item) =>
             <div key={item.name} className="skill-badge">
