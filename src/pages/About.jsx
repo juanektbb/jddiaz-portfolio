@@ -38,7 +38,7 @@ class About extends React.Component{
               We are also building a new project named <b>vHelp</b> which is a secure payment flow for people who need support with shopping during the pandemic.
             </p>
             <p>
-              As I am very passionate about software, I love learning and keep up improving my skills and working on new ideas and side projects.
+              As I am very passionate about software, I love learning and keep up improving my skills as well as working on new ideas and side projects.
             </p>
             <br />
 
@@ -75,7 +75,7 @@ class About extends React.Component{
                 <li>Frontend Development: SPA, PWA</li>
                 <li>Databases: ORM, Migrations</li>
                 <li>Operating Systems: Linux, MacOS, Windows</li>
-                <li>AWS, Digital Ocean, Heroku, Shopify</li>
+                <li>AWS, Digital Ocean, Heroku, Stripe, Shopify</li>
                 <li>Unit Testing</li>
               </ul>
             </div>
