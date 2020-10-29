@@ -32,8 +32,9 @@ const Projects = [
     "light": true,
     "short_desc": `vHelp is a very innovative response to COVID-19 that enables contactless and secure payment
       flow from those who need support with shopping to the helpers supporting them.`,
-    "long_desc": "",
-    "images": []
+    "long_desc": `My role is to develop the backend of the mobile app and project lead the security measurements against penetration system. I have also built a large part of the web frontend, carried a very extensive testing project and made few contributions to the mobile application.`,
+    "images": [],
+    "techs": ["Python", "Django REST Framework", "PostgreSQL", "JWT", "Stripe", "HTML", "CSS", "JS", "Bootstrap", "AWS"]
   },
   {
     "title": "VeeLoop",
@@ -46,7 +47,8 @@ const Projects = [
     "short_desc": `VeeLoop is an online approval and payment service to help young people shop online.
       Teens fill up the basket online, send it to mum, mum checks and pays in her own time.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": ["PHP", "Symfony", "React", "MySQL", "Python", "JavaScript", "jQuery", "HTML", "CSS", "SASS", "Stripe", "Shopify", "AWS"]
   },
   {
     "title": "Karali Group",
@@ -62,7 +64,8 @@ const Projects = [
       At Karali Group I developed myself an entire business management platform to help with the daily company processes. It is formed by several services, among them are auditing, documents management system, staff enrolment solution, data and complaints analysis tools and an internal portal administration.
       \n All of these follow a hierarchical schema with access roles for the company members who are more than 150 individuals organized by all the franchised restaurants and the company employees.
       \n My everyday tasks were growing the platform by building new solutions and features, administrate and maintain all the web servers and their databases, provide technical support and occasionally design websites for their brand restaurants.`,
-      "images": []
+      "images": [],
+      "techs": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS", "DevOps"]
   },
   {
     "title": "MP3Download",
@@ -75,7 +78,8 @@ const Projects = [
     "short_desc": `MP3Download is a personal project that downloads Youtube videos as MP3 files for listening
       offline, ideal for podcasts.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": ["PWA", "Python", "Flask", "MongoDB", "DevOps"]
   },
   {
     "title": "Data Mining",
@@ -88,7 +92,8 @@ const Projects = [
     "short_desc": `This project of Data Mining was the main assignment of the module at University, in which
       I applied all the techniques taught.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": ["Python", "Jupiter Notebook", "Scikit-learn", "Numpy", "Pandas", "Matplotlib"]
   },
   {
     "title": "Collaap",
@@ -101,7 +106,8 @@ const Projects = [
     "short_desc": `Collaap is an android app to store and share collaborative notes with your household or group members.
       It notifies all users when a reminder is set and due for a date or time.`,
     "long_desc": ``,
-    "images": [C0, C1, C2, C3, C4, C5, C6, C7, C8]
+    "images": [C0, C1, C2, C3, C4, C5, C6, C7, C8],
+    "techs": ["React Native", "Redux", "Node.js", "Express", "MongoDB", "Vue.js"]
   },
   {
     "title": "Machine Learning",
@@ -114,7 +120,8 @@ const Projects = [
     "short_desc": `This is the second assignment of Machine Learning at University, where I applied more
       complex knowledge of Logistic Regression.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": ["Python", "Jupiter Notebook", "Numpy", "Pandas", "Matplotlib"]
   },
   {
     "title": "SpaceY.js",
@@ -127,7 +134,8 @@ const Projects = [
     "short_desc": `SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. This personal project
       proved my logic and programming skills.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": ["JavaScript", "HTML", "CSS"]
   },
   {
     "title": "Dragandrop.js",
@@ -140,7 +148,8 @@ const Projects = [
     "short_desc": `This project is a drag and drop UI for a hierarchical company structure.
       Dragandrop.js is fully built with vanilla JavaScript and HTML5 APIs.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": []
   },
   {
     "title": "Kate Diaz",
@@ -151,9 +160,10 @@ const Projects = [
     "github": "",
     "light": false,
     "short_desc": `This is an eCommerce built with Shopify for my sister's business.
-      She mainly sells female swimwear and face masks.`,
+      She sells handcrafted female items such as swimwear, bags and face masks.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": []
   },
   {
     "title": "Sticky Sisters",
@@ -166,7 +176,8 @@ const Projects = [
     "short_desc": `Sticky Sisters is a new and exciting fast-casual dining restaurant, specialising in
       chicken wings and tasty sauces.`,
     "long_desc": "",
-    "images": []
+    "images": [],
+    "techs": []
   },
 ]
 

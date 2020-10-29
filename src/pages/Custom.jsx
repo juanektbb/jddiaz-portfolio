@@ -85,9 +85,20 @@ class Custom extends React.Component{
                 )}
               </section>}
 
-            {this.props.item.long_desc.split("\n").map((paragraph, key) => {
-               return <p key={key}>{paragraph}</p>
-            })}
+            <div className="content-text">
+              {this.props.item.long_desc.split("\n").map((paragraph, key) => {
+                return <p key={key}>{paragraph}</p>
+              })}
+            </div>
+
+            <h4 className="technologies-title">Technologies</h4>
+            <div className="technologies-box">
+              {this.props.item.techs.map((item, key) => 
+                <div key={key} className="technologies-item">
+                  {item}
+                </div>)}
+            </div>
+
           </div>
         </div>
       </div>

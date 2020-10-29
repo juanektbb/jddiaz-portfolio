@@ -53,10 +53,12 @@
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  margin-bottom: 50px;
 }
 .custom-links{
   text-align: center;
-  margin: 30px auto 0;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 a.btn{
   padding: 8px 12px;
@@ -88,7 +90,7 @@ a.github:hover{
 .custom-body{
   width: 25%;
   min-width: 700px;
-  margin: 50px auto 20px;
+  margin: 0 auto;
   text-align: justify;
   word-wrap: break-word;
   -webkit-hyphens: auto;
@@ -98,6 +100,8 @@ a.github:hover{
 }
 .gallery-title{
   text-align: center;
+  margin-top: 0;
+  padding-top: 0;
   margin-bottom: 10px;
 }
 .gallery-main{
@@ -109,7 +113,7 @@ a.github:hover{
   -moz-column-gap: 2px;
   column-count: 3;
   column-gap: 2px; 
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .photo-element{
   cursor: pointer;
@@ -122,6 +126,10 @@ a.github:hover{
   width: 100% !important;
   height: auto !important;
   border: 1px solid #eee;
+}
+.content-text{
+  margin-bottom: 50px;
+  padding: 0
 }
 .ModalBox{
   left: 0;
@@ -199,6 +207,26 @@ a.github:hover{
 .ElementActive{
   border: 2px solid #097ab5;
 }
+.technologies-title{
+  text-align: center;
+  margin: 30px auto 10px;
+}
+.technologies-box{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: #444;
+  font-size: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.technologies-item{
+  padding: 2px 12px;
+  margin: 2px;
+  border-radius: 3px;
+  background-color: #eee;
+}
 
 @media screen and (max-width: 1000px){
   .CarouselBox{
@@ -265,6 +293,11 @@ a.github:hover{
     height: 50px;
     line-height: 46px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 600px){
+  .technologies-box{
+    width: 100%;
   }
 }
 @media screen and (max-width: 420px){
