@@ -30,11 +30,11 @@ const Projects = [
     "website": "https://vhelp.co.uk",
     "github": "",
     "light": true,
-    "short_desc": `vHelp is a very innovative response to COVID-19 that enables contactless and secure payment
+    "short_desc": `vHelp is a very innovative mobile app that enables contactless and secure payment
       flow from those who need support with shopping to the helpers supporting them.`,
-    "long_desc": `My role is to develop the backend of the mobile app and project lead the security measurements against penetration system. I have also built a large part of the web frontend, carried a very extensive testing project and made few contributions to the mobile application.`,
+    "long_desc": `My role at vHelp is to develop the backend of the mobile app and project lead the security measurements against penetration system. I have also built a large part of the web frontend, carried a very extensive testing project and made few contributions to the mobile application.`,
     "images": [],
-    "techs": ["Python", "Django REST Framework", "PostgreSQL", "JWT", "Stripe", "HTML", "CSS", "JS", "Bootstrap", "AWS"]
+    "techs": ["Python", "Django", "PostgreSQL", "JWT", "Stripe", "HTML", "CSS", "JS", "Bootstrap", "AWS"]
   },
   {
     "title": "VeeLoop",
@@ -103,9 +103,8 @@ const Projects = [
     "website": "",
     "github": "",
     "light": false,
-    "short_desc": `Collaap is an android app to store and share collaborative notes with your household or group members.
-      It notifies all users when a reminder is set and due for a date or time.`,
-    "long_desc": ``,
+    "short_desc": `Collaap is an iOS & Android app to store and share collaborative notes with your household or group members instantly.`,
+    "long_desc": `Collaap is to share organised and editable information between the users for later easy access. It acts like a digital agenda for household notes like; todo's, shopping lists, members' tasks, family reminders, payments, etc.`,
     "images": [C0, C1, C2, C3, C4, C5, C6, C7, C8],
     "techs": ["React Native", "Redux", "Node.js", "Express", "MongoDB", "Vue.js"]
   },
