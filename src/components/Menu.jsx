@@ -82,8 +82,6 @@ class Menu extends React.Component{
             </div>
           </a>
         </section>
-
-        <footer>&copy; jddiaz 2020</footer>
       </div>
     )
   }

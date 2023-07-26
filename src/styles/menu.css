@@ -54,14 +54,6 @@
   top: 5px;
   width: 35px;
 }
-footer{
-  position: absolute;
-  font-size: 12px;
-  color: var(--color-hover);
-  text-align: center;
-  bottom: 5px;
-  width: 100%;
-}
 
 /* RESPONSIVE MENU */
 .MenuResBox a, .MenuResBox a:hover, .MenuResBox a:link, .MenuResBox a:visited{

@@ -1,14 +1,45 @@
+import Duappy from '../images/bgs/bg-duappy.jpg'
+import Telmi from '../images/bgs/bg-telmi.jpg'
 import Vhelp from '../images/bgs/bg-vhelp.png'
+import Musidex from '../images/bgs/bg-musidex.jpg'
 import VeeLoop from '../images/bgs/bg-veeloop.png'
 import Karali from '../images/bgs/bg-karali.png'
 import Collaap from '../images/bgs/bg-collaap.png'
-import DataMining from '../images/bgs/bg-datamining.png'
-import ML from '../images/bgs/bg-ml.png'
 import StickySisters from '../images/bgs/bg-stickysisters.png'
 import MP3D from '../images/bgs/bg-mp3d.png'
 import SpaceY from '../images/bgs/bg-spacey.png'
-import Drandrop from '../images/bgs/bg-drandrop.png'
-import KateDiaz from '../images/bgs/bg-katediaz.png'
+
+//Duappy
+import D1 from '../images/carousel/duappy/screenshot1.jpg'
+import D2 from '../images/carousel/duappy/screenshot2.jpeg'
+import D3 from '../images/carousel/duappy/screenshot3.jpeg'
+import D5 from '../images/carousel/duappy/screenshot5.jpeg'
+import D6 from '../images/carousel/duappy/screenshot6.jpeg'
+import D7 from '../images/carousel/duappy/screenshot7.jpeg'
+import D8 from '../images/carousel/duappy/screenshot8.jpeg'
+import D9 from '../images/carousel/duappy/screenshot9.jpeg'
+
+//Telmi
+import T1 from '../images/carousel/telmi/screenshot1.jpeg'
+import T2 from '../images/carousel/telmi/screenshot2.jpeg'
+import T3 from '../images/carousel/telmi/screenshot3.jpeg'
+import T4 from '../images/carousel/telmi/screenshot4.jpeg'
+import T5 from '../images/carousel/telmi/screenshot5.jpeg'
+import T6 from '../images/carousel/telmi/screenshot6.jpeg'
+// import T7 from '../images/carousel/telmi/screenshot7.jpeg'
+import T8 from '../images/carousel/telmi/screenshot8.jpeg'
+import T9 from '../images/carousel/telmi/screenshot9.jpeg'
+import T10 from '../images/carousel/telmi/screenshot10.jpeg'
+
+//vHelp
+import V1 from '../images/carousel/vhelp/screenshot1.jpeg'
+import V2 from '../images/carousel/vhelp/screenshot2.jpeg'
+import V3 from '../images/carousel/vhelp/screenshot3.jpeg'
+import V5 from '../images/carousel/vhelp/screenshot5.jpeg'
+import V6 from '../images/carousel/vhelp/screenshot6.jpeg'
+import V7 from '../images/carousel/vhelp/screenshot7.jpeg'
+import V8 from '../images/carousel/vhelp/screenshot8.jpeg'
+import V9 from '../images/carousel/vhelp/screenshot9.jpeg'
 
 //Collaap
 import C0 from '../images/carousel/collaap/image-0.jpg'
@@ -23,8 +54,41 @@ import C8 from '../images/carousel/collaap/image-8.jpg'
 
 const Projects = [
   {
+    "title": "Duappy",
+    "category": "Duappy - Dancing Events App",
+    "img": Duappy,
+    "url": "/duappy",
+    "website": "https://duappy.com",
+    "github": "",
+    "light": false,
+    "short_desc": `
+      Duappy is the 🏆 #1 app for finding social dancing events in the UK. It hosts hundreds of events with thousands of attendees, and the app allows dancers to purchase cashless tickets.`,
+    "long_desc": `
+      Took full ownership as the sole developer, leading the end-to-end project by carefully selecting the optimal tech stack and designing the entire system.
+      Successfully developed the mobile app for iOS and Android using Flutter, a responsive web dashboard with Next.js, and a robust RESTful API backend in Node.js. Ensured seamless deployment and scalability by establishing essential DevOps processes in AWS.
+    `,
+    "images": [D1, D8, D6, D2, D3, D5, D7, D9],
+    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "AWS", "Stripe", "HTML", "CSS", "JS", "Tailwind", "Sequelize"]
+  },
+  {
+    "title": "Telmi Kids",
+    "category": "Telmi Kids App",
+    "img": Telmi,
+    "url": "/telmi",
+    "website": "https://telmi.io",
+    "github": "",
+    "light": true,
+    "short_desc": `Telmi is the podcast mobile app for children. Kids of all ages can register under their parents consent to create podcast and share them with their family and friends`,
+    "long_desc": `
+      Developed their mobile app for children to create, modify, and share podcasts with friends, featuring suggestions and multiple profiles inspired by the popular Netflix style.
+      As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
+    `,
+    "images": [T1, T2, T3, T4, T5, T6, T8, T9, T10],
+    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "AWS", "Stripe", "HTML", "CSS", "JS", "Tailwind", "Sequelize"]
+  },
+  {
     "title": "vHelp",
-    "category": "Job Project",
+    "category": "vHelp App",
     "img": Vhelp,
     "url": "/vhelp",
     "website": "https://vhelp.co.uk",
@@ -32,9 +96,30 @@ const Projects = [
     "light": true,
     "short_desc": `vHelp is a very innovative mobile app that enables contactless and secure payment
       flow from those who need support with shopping to the helpers supporting them.`,
-    "long_desc": `My role at vHelp is to develop the backend of the mobile app and project lead the security measurements against penetration system. I have also built a large part of the web frontend, carried a very extensive testing project and made few contributions to the mobile application.`,
+    "long_desc": `
+      Achieved significant impact through successful project delivery, the leadership of a team of four developers, and substantial professional growth.
+      Spearheaded end-to-end projects, including the company's Open API, complete web dashboard, and integration with external services.
+      Mentored colleagues through periodic code reviews, ensuring the release of clean and efficient code while fostering their professional development.
+      Emphasized system security by promptly resolving identified vulnerabilities through pen-testing, implementing patches, and proactively reducing risks.
+    `,
+    "images": [V1, V2, V3, V5, V6, V7, V8, V9],
+    "techs": ["Flutter", "React.js", "TypeScript", "Node.js", "Express", "Sequelize", "PostgreSQL", "Docker", "Stripe", "AWS", "Tailwind"],
+  },
+  {
+    "title": "Musidex",
+    "category": "Musidex",
+    "img": Musidex,
+    "url": "/musidex",
+    "website": "https://musidex.co.uk",
+    "github": "",
+    "light": false,
+    "short_desc": `Musidex is the ultimate tool for audio industries, composers and songwriters. It offer a secure and reliable cloud storage for all your audio files.`,
+    "long_desc": `
+      Played a key role in making significant contributions to the front and backend, as registration/login functionalities and developing robust APIs for seamless management of playlists, tracks, and CRUD operations.
+      Furthermore, I implemented an efficient search system to enhance content discovery, empowering music artists to store, share, and showcase their soundtracks, thereby ensuring a smooth user experience.
+    `,
     "images": [],
-    "techs": ["Python", "Django", "PostgreSQL", "JWT", "Stripe", "HTML", "CSS", "JS", "Bootstrap", "AWS"]
+    "techs": ["React.js", "Next.js", "Firebase", "Node.js", "Netlify"]
   },
   {
     "title": "VeeLoop",
@@ -52,7 +137,7 @@ const Projects = [
   },
   {
     "title": "Karali Group",
-    "category": "Job Project",
+    "category": "Karali Group",
     "img": Karali,
     "url": "/karaligroup",
     "website": "https://karali-group.com",
@@ -68,8 +153,22 @@ const Projects = [
       "techs": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS", "DevOps"]
   },
   {
+    "title": "Sticky Sisters",
+    "category": "Sticky Sisters Website",
+    "img": StickySisters,
+    "url": "/stickysisters",
+    "website": "http://www.stickysisters.co.uk/",
+    "github": "",
+    "light": false,
+    "short_desc": `Sticky Sisters is a new and exciting fast-casual dining restaurant, specialising in
+      chicken wings and tasty sauces.`,
+    "long_desc": "",
+    "images": [],
+    "techs": []
+  },
+  {
     "title": "MP3Download",
-    "category": "Personal Project",
+    "category": "Open-Source Project",
     "img": MP3D,
     "url": "/mp3d",
     "website": "",
@@ -82,18 +181,18 @@ const Projects = [
     "techs": ["PWA", "Python", "Flask", "MongoDB", "DevOps"]
   },
   {
-    "title": "Data Mining",
-    "category": "University Project",
-    "img": DataMining,
-    "url": "/datamining",
-    "website": "",
-    "github": "https://github.com/juanektbb/data-mining-assignment",
+    "title": "SpaceY.js",
+    "category": "Game prototype",
+    "img": SpaceY,
+    "url": "/spaceyjs",
+    "website": "https://spaceyjs.netlify.app/",
+    "github": "https://github.com/juanektbb/SpaceY.js",
     "light": true,
-    "short_desc": `This project of Data Mining was the main assignment of the module at University, in which
-      I applied all the techniques taught.`,
+    "short_desc": `SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. This personal project
+      proved my logic and programming skills.`,
     "long_desc": "",
     "images": [],
-    "techs": ["Python", "Jupiter Notebook", "Scikit-learn", "Numpy", "Pandas", "Matplotlib"]
+    "techs": ["JavaScript", "HTML", "CSS"]
   },
   {
     "title": "Collaap",
@@ -107,76 +206,6 @@ const Projects = [
     "long_desc": `Collaap is to share organised and editable information between the users for later easy access. It acts like a digital agenda for household notes like; todo's, shopping lists, members' tasks, family reminders, payments, etc.`,
     "images": [C0, C1, C2, C3, C4, C5, C6, C7, C8],
     "techs": ["React Native", "Redux", "Node.js", "Express", "MongoDB", "Vue.js"]
-  },
-  {
-    "title": "Machine Learning",
-    "category": "University Project",
-    "img": ML,
-    "url": "/machinelearning",
-    "website": "",
-    "github": "https://github.com/juanektbb/logistic-regression-assignment",
-    "light": false,
-    "short_desc": `This is the second assignment of Machine Learning at University, where I applied more
-      complex knowledge of Logistic Regression.`,
-    "long_desc": "",
-    "images": [],
-    "techs": ["Python", "Jupiter Notebook", "Numpy", "Pandas", "Matplotlib"]
-  },
-  {
-    "title": "SpaceY.js",
-    "category": "Personal Project",
-    "img": SpaceY,
-    "url": "/spaceyjs",
-    "website": "https://spaceyjs.netlify.app/",
-    "github": "https://github.com/juanektbb/SpaceY.js",
-    "light": true,
-    "short_desc": `SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. This personal project
-      proved my logic and programming skills.`,
-    "long_desc": "",
-    "images": [],
-    "techs": ["JavaScript", "HTML", "CSS"]
-  },
-  {
-    "title": "Dragandrop.js",
-    "category": "Personal Project",
-    "img": Drandrop,
-    "url": "/drandrop",
-    "website": "https://drandropjs.netlify.app/",
-    "github": "https://github.com/juanektbb/drandrop.js",
-    "light": true,
-    "short_desc": `This project is a drag and drop UI for a hierarchical company structure.
-      Dragandrop.js is fully built with vanilla JavaScript and HTML5 APIs.`,
-    "long_desc": "",
-    "images": [],
-    "techs": []
-  },
-  {
-    "title": "Kate Diaz",
-    "category": "Freelance Project",
-    "img": KateDiaz,
-    "url": "/katediaz",
-    "website": "https://katediaz.co.uk",
-    "github": "",
-    "light": false,
-    "short_desc": `This is an eCommerce built with Shopify for my sister's business.
-      She sells handcrafted female items such as swimwear, bags and face masks.`,
-    "long_desc": "",
-    "images": [],
-    "techs": []
-  },
-  {
-    "title": "Sticky Sisters",
-    "category": "Job Project",
-    "img": StickySisters,
-    "url": "/stickysisters",
-    "website": "http://www.stickysisters.co.uk/",
-    "github": "",
-    "light": false,
-    "short_desc": `Sticky Sisters is a new and exciting fast-casual dining restaurant, specialising in
-      chicken wings and tasty sauces.`,
-    "long_desc": "",
-    "images": [],
-    "techs": []
   },
 ]
 

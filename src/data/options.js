@@ -7,10 +7,10 @@ const options = [
     "to": "/about",
     "title": "About"
   },
-  {
-    "to": "/work",
-    "title": "My Work"
-  },
+  // {
+  //   "to": "/work",
+  //   "title": "My Work"
+  // },
   {
     "to": "/chat",
     "title": "Let's Chat"

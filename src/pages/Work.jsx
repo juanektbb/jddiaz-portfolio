@@ -34,7 +34,7 @@ class Work extends React.Component{
                 </div>
                 <div className="experience-container right-side">
                   <div className="experience">
-                    <h3>2020 - 2018</h3>
+                    <h3>2019 - 2017</h3>
                     <h5>Karali Group</h5>
                     <p>Full-Stack Developer</p>
                     <p>IT Consultancy</p>

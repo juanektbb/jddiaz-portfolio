@@ -9,11 +9,6 @@ import Skillslist from '../data/skills.js'
 
 class About extends React.Component{
 
-  constructor(props){
-    super(props)
-    this.state = {}
-  }
-
   render(){
     return(
       <div className="About Context">
@@ -75,6 +70,7 @@ class About extends React.Component{
                 <li>Frontend Development: SPA, PWA</li>
                 <li>Databases: ORM, Migrations</li>
                 <li>Operating Systems: Linux, MacOS, Windows</li>
+                <li>AWS: EC2, S3, SNS | SQS, RDS, Lambda, VPCs, SES, Route 53</li>
                 <li>AWS, Digital Ocean, Heroku, Stripe, Shopify</li>
                 <li>Unit Testing</li>
               </ul>

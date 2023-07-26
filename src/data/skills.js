@@ -4,14 +4,18 @@ import Treact from '../images/skills/t-react.jpg'
 import Tnode from '../images/skills/t-node.jpg'
 import Tsvelte from '../images/skills/t-svelte.jpg'
 import Tredux from '../images/skills/t-redux.jpg'
-import Tangular from '../images/skills/t-angular.jpg'
-import Tdeno from '../images/skills/t-deno.jpg'
-import Tjquery from '../images/skills/t-jquery.jpg'
-import Tp5 from '../images/skills/t-p5.jpg'
+import TNextjs from '../images/skills/t-nextjs.jpg'
+import TJest from '../images/skills/t-jest.jpg'
+import TVuejs from '../images/skills/t-vuejs.jpg'
 
 import Tpython from '../images/skills/t-python.jpg'
 import Tdjango from '../images/skills/t-django.jpg'
 import Tflask from '../images/skills/t-flask.jpg'
+import Tscikit from '../images/skills/t-scikit.jpg'
+import Tnumpy from '../images/skills/t-numpy.jpg'
+import Tpandas from '../images/skills/t-pandas.jpg'
+import TJupyter from '../images/skills/t-jupyter.jpg'
+import Tmatplotlib from '../images/skills/t-matplotlib.jpg'
 
 import Tphp from '../images/skills/t-php.jpg'
 import Tsymfony from '../images/skills/t-symfony.jpg'
@@ -24,22 +28,25 @@ import Tsqlite from '../images/skills/t-sqlite.jpg'
 
 import Tgit from '../images/skills/t-git.jpg'
 import Tdocker from '../images/skills/t-docker.jpg'
-import Tvagrant from '../images/skills/t-vagrant.jpg'
+import TTerraform from '../images/skills/t-terraform.jpg'
+import TAWS from '../images/skills/t-aws.jpg'
 
-import Tscikit from '../images/skills/t-scikit.jpg'
-import Tnumpy from '../images/skills/t-numpy.jpg'
-import Tpandas from '../images/skills/t-pandas.jpg'
-import Tmatplotlib from '../images/skills/t-matplotlib.jpg'
+import TGraphQL from '../images/skills/t-graphql.jpg'
+
+
 
 import Tjava from '../images/skills/t-java.jpg'
 // import Tcpp from '../images/skills/t-cpp.jpg'
-import Tarduino from '../images/skills/t-arduino.jpg'
 
-import Tandroid from '../images/skills/t-android.jpg'
+import TFlutter from '../images/skills/t-flutter.jpg'
+import TApple from '../images/skills/t-apple.jpg'
+import TAndroid from '../images/skills/t-android.jpg'
+import TFirebase from '../images/skills/t-firebase.jpg'
 
 import Thtml from '../images/skills/t-html.jpg'
 import Tcss from '../images/skills/t-css.jpg'
 import Tsass from '../images/skills/t-sass.jpg'
+import TTailwind from '../images/skills/t-tailwind.jpg'
 import Tbootstrap from '../images/skills/t-bootstrap.jpg'
 
 import Tphotoshop from '../images/skills/t-photoshop.jpg'
@@ -52,16 +59,16 @@ const skillslist = [
     "color": "#eeae4a",
     "text": "#000",
     "skills": [
-      {"name": "JavaScript", "logo": Tjs},
+      // {"name": "JavaScript", "logo": Tjs},
       {"name": "TypeScript", "logo": Tts},
-      {"name": "ReactJS", "logo": Treact},
-      {"name": "NodeJS", "logo": Tnode},
+      {"name": "Node.js", "logo": Tnode},
+      {"name": "React.js", "logo": Treact},
+      {"name": "Next.js", "logo": TNextjs},
       {"name": "Svelte", "logo": Tsvelte},
       {"name": "Redux", "logo": Tredux},
-      {"name": "Deno", "logo": Tdeno},
-      {"name": "jQuery", "logo": Tjquery},
-      {"name": "Angular", "logo": Tangular},
-      {"name": "p5.js", "logo": Tp5},
+      {"name": "Jest", "logo": TJest},
+      {"name": "Vue.js", "logo": TVuejs},
+      // {"name": "p5.js", "logo": Tp5},
     ]
   },
   {
@@ -69,19 +76,36 @@ const skillslist = [
     "color": "#004792",
     "text": "#fff",
     "skills": [
-      {"name": "Python", "logo": Tpython},
+      // {"name": "Python", "logo": Tpython},
       {"name": "Django", "logo": Tdjango},
       {"name": "Flask", "logo": Tflask},
+      {"name": "Scikit-learn", "logo": Tscikit},
+      {"name": "Jupyter", "logo": TJupyter},
+      {"name": "Matplotlib", "logo": Tmatplotlib},
+      {"name": "Pandas", "logo": Tpandas},
+      {"name": "Numpy", "logo": Tnumpy},
     ]
   },
+  // {
+  //   "title": "PHP",
+  //   "color": "#8a93be",
+  //   "text": "#000",
+  //   "skills": [
+  //     {"name": "PHP", "logo": Tphp},
+  //     {"name": "Symfony", "logo": Tsymfony},
+  //     {"name": "Wordpress", "logo": Twordpress},
+  //   ]
+  // },
   {
-    "title": "PHP",
-    "color": "#8a93be",
+    "title": "Mobile App Development",
+    "color": "#61b086",
     "text": "#000",
     "skills": [
-      {"name": "PHP", "logo": Tphp},
-      {"name": "Symfony", "logo": Tsymfony},
-      {"name": "Wordpress", "logo": Twordpress},
+      {"name": "Flutter", "logo": TFlutter},
+      {"name": "ReactNative", "logo": Treact},
+      {"name": "Apple", "logo": TApple},
+      {"name": "Android", "logo": TAndroid},
+      {"name": "Firebase", "logo": TFirebase},
     ]
   },
   {
@@ -89,8 +113,8 @@ const skillslist = [
     "color": "#aaa",
     "text": "#000",
     "skills": [
-      {"name": "MySQL", "logo": Tmysql},
       {"name": "PostgreSQL", "logo": Tpostgresql},
+      {"name": "MySQL", "logo": Tmysql},
       {"name": "MongoDB", "logo": Tmongodb},
       {"name": "SQLite", "logo": Tsqlite},
     ]
@@ -101,37 +125,30 @@ const skillslist = [
     "text": "#fff",
     "skills": [
       {"name": "Git", "logo": Tgit},
-      {"name": "Vagrant", "logo": Tvagrant},
+      {"name": "AWS", "logo": TAWS},
+      {"name": "GraphQL", "logo": TGraphQL},
+      {"name": "Terraform", "logo": TTerraform},
       {"name": "Docker", "logo": Tdocker},
     ]
   },
-  {
-    "title": "Machine Learning",
-    "color": "#3a7abd",
-    "text": "#fff",
-    "skills": [
-      {"name": "Scikit-learn", "logo": Tscikit},
-      {"name": "Numpy", "logo": Tnumpy},
-      {"name": "Pandas", "logo": Tpandas},
-      {"name": "Matplotlib", "logo": Tmatplotlib}
-    ]
-  },
-  {
-    "title": "Mobile Technologies",
-    "color": "#61b086",
-    "text": "#000",
-    "skills": [
-      {"name": "Native", "logo": Treact},
-      {"name": "A. Studio", "logo": Tandroid},
-    ]
-  },
+  // {
+  //   "title": "Machine Learning",
+  //   "color": "#3a7abd",
+  //   "text": "#fff",
+  //   "skills": [
+  //     {"name": "Scikit-learn", "logo": Tscikit},
+  //     {"name": "Numpy", "logo": Tnumpy},
+  //     {"name": "Pandas", "logo": Tpandas},
+  //     {"name": "Matplotlib", "logo": Tmatplotlib}
+  //   ]
+  // },
+
   {
     "title": "Others",
     "color": "#c84b36",
     "text": "#fff",
     "skills": [
       {"name": "Java", "logo": Tjava},
-      {"name": "Arduino", "logo": Tarduino},
     ]
   },
   {
@@ -142,6 +159,7 @@ const skillslist = [
       {"name": "HTML", "logo": Thtml},
       {"name": "CSS", "logo": Tcss},
       {"name": "SASS", "logo": Tsass},
+      {"name": "Tailwind", "logo": TTailwind},
       {"name": "Bootstrap", "logo": Tbootstrap},
     ]
   },
