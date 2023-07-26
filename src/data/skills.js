@@ -1,4 +1,3 @@
-import Tjs from '../images/skills/t-js.jpg'
 import Tts from '../images/skills/t-ts.jpg'
 import Treact from '../images/skills/t-react.jpg'
 import Tnode from '../images/skills/t-node.jpg'
@@ -8,7 +7,6 @@ import TNextjs from '../images/skills/t-nextjs.jpg'
 import TJest from '../images/skills/t-jest.jpg'
 import TVuejs from '../images/skills/t-vuejs.jpg'
 
-import Tpython from '../images/skills/t-python.jpg'
 import Tdjango from '../images/skills/t-django.jpg'
 import Tflask from '../images/skills/t-flask.jpg'
 import Tscikit from '../images/skills/t-scikit.jpg'
@@ -17,9 +15,6 @@ import Tpandas from '../images/skills/t-pandas.jpg'
 import TJupyter from '../images/skills/t-jupyter.jpg'
 import Tmatplotlib from '../images/skills/t-matplotlib.jpg'
 
-import Tphp from '../images/skills/t-php.jpg'
-import Tsymfony from '../images/skills/t-symfony.jpg'
-import Twordpress from '../images/skills/t-wordpress.jpg'
 
 import Tmysql from '../images/skills/t-mysql.jpg'
 import Tpostgresql from '../images/skills/t-postgresql.jpg'
