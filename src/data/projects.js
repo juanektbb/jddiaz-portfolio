@@ -67,7 +67,7 @@ const Projects = [
       Took full ownership as the sole developer, leading the end-to-end project by carefully selecting the optimal tech stack and designing the entire system.
       Successfully developed the mobile app for iOS and Android using Flutter, a responsive web dashboard with Next.js, and a robust RESTful API backend in Node.js. Ensured seamless deployment and scalability by establishing essential DevOps processes in AWS.
     `,
-    "images": [D1, D8, D6, D2, D3, D5, D7, D9],
+    "images": [D1, D2, D3, D7, D5, D6, D8, D9],
     "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "PostgreSQL", "AWS", "Stripe", "Sequelize", "Tailwind"]
   },
   {
@@ -83,7 +83,7 @@ const Projects = [
       Developed their mobile app for children to create, modify, and share podcasts with friends, featuring suggestions and multiple profiles inspired by the popular Netflix style.
       As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
     `,
-    "images": [T1, T2, T3, T4, T5, T6, T8, T9, T10],
+    "images": [T1, T2, T3, T4, T10, T8, T9, T5],
     "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "AWS", "Stripe", "HTML", "CSS", "JS", "Tailwind", "Sequelize"]
   },
   {
