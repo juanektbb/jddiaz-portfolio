@@ -4,7 +4,6 @@ import '../styles/chat.css'
 import emailjs from 'emailjs-com';
 
 import Mail from '../images/mail.png'
-import Phone from '../images/phone.png'
 import Infinity from '../images/infinity.gif'
 
 class Chat extends React.Component{
