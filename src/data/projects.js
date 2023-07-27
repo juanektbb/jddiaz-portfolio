@@ -83,8 +83,8 @@ const Projects = [
       Developed their mobile app for children to create, modify, and share podcasts with friends, featuring suggestions and multiple profiles inspired by the popular Netflix style.
       As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
     `,
-    "images": [T1, T2, T3, T4, T10, T8, T9, T5],
-    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "AWS", "Stripe", "HTML", "CSS", "JS", "Tailwind", "Sequelize"]
+    "images": [T1, T9, T4, T2, T5, T10, T3, T8],
+    "techs": ["Flutter", "Django", "PostgreSQL", "AWS", "Firebase", "JavaScript", "HTML", "CSS"]
   },
   {
     "title": "vHelp",
@@ -114,7 +114,7 @@ const Projects = [
     "website": "https://musidex.co.uk",
     "github": "",
     "light": false,
-    "short_desc": `Musidex is the ultimate tool for audio industries, composers and songwriters. It offer a secure and reliable cloud storage for all your audio files.`,
+    "short_desc": `Musidex is the ultimate tool for audio industries, composers and songwriters. It provides secure and reliable cloud storage for all your audio files.`,
     "long_desc": `
       Played a key role in making significant contributions to the front and backend, as registration/login functionalities and developing robust APIs for seamless management of playlists, tracks, and CRUD operations.
       Furthermore, I implemented an efficient search system to enhance content discovery, empowering music artists to store, share, and showcase their soundtracks, thereby ensuring a smooth user experience.
