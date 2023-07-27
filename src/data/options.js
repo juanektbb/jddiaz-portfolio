@@ -5,7 +5,7 @@ const options = [
   },
   {
     "to": "/about",
-    "title": "About"
+    "title": "About Me"
   },
   // {
   //   "to": "/work",

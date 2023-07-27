@@ -68,7 +68,7 @@ const Projects = [
       Successfully developed the mobile app for iOS and Android using Flutter, a responsive web dashboard with Next.js, and a robust RESTful API backend in Node.js. Ensured seamless deployment and scalability by establishing essential DevOps processes in AWS.
     `,
     "images": [D1, D8, D6, D2, D3, D5, D7, D9],
-    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "AWS", "Stripe", "HTML", "CSS", "JS", "Tailwind", "Sequelize"]
+    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "PostgreSQL", "AWS", "Stripe", "Sequelize", "Tailwind"]
   },
   {
     "title": "Telmi Kids",
@@ -94,8 +94,9 @@ const Projects = [
     "website": "https://vhelp.co.uk",
     "github": "",
     "light": true,
-    "short_desc": `vHelp is a very innovative mobile app that enables contactless and secure payment
-      flow from those who need support with shopping to the helpers supporting them.`,
+    "short_desc": `
+      vHelp enables organizations to quickly reimburse one-off expenses for volunteers, service users, research participants, and temporary staff.
+    `,
     "long_desc": `
       Achieved significant impact through successful project delivery, the leadership of a team of four developers, and substantial professional growth.
       Spearheaded end-to-end projects, including the company's Open API, complete web dashboard, and integration with external services.
@@ -188,15 +189,17 @@ const Projects = [
     "website": "https://spaceyjs.netlify.app/",
     "github": "https://github.com/juanektbb/SpaceY.js",
     "light": true,
-    "short_desc": `SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. This personal project
-      proved my logic and programming skills.`,
+    "short_desc": `
+      SpaceY.js is a 2D-videogame of a spaceship that shoots aliens. 
+      This is the prototype with the hardest logic of the game completed, ready to create more levels.
+    `,
     "long_desc": "",
     "images": [],
     "techs": ["JavaScript", "HTML", "CSS"]
   },
   {
     "title": "Collaap",
-    "category": "Personal Project",
+    "category": "Notes Mobile App",
     "img": Collaap,
     "url": "/collaap",
     "website": "",

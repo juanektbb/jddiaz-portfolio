@@ -50,7 +50,6 @@ class Chat extends React.Component{
 
             <div className="personal-details">
               <div><img src={Mail} alt="Mail icon" />inf.juandiaz@gmail.com</div>
-              <div><img src={Phone} alt="Phone icon" /> +44 (0)7425 867 656</div>
             </div>
             <p className="contact-msg">Feel free to get in touch with me using this form and I will get back to you very soon.</p>
 

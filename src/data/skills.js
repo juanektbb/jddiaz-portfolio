@@ -1,4 +1,4 @@
-import Tts from '../images/skills/t-ts.jpg'
+import TTs from '../images/skills/t-ts.jpg'
 import Treact from '../images/skills/t-react.jpg'
 import Tnode from '../images/skills/t-node.jpg'
 import Tsvelte from '../images/skills/t-svelte.jpg'
@@ -31,7 +31,6 @@ import TGraphQL from '../images/skills/t-graphql.jpg'
 
 
 import Tjava from '../images/skills/t-java.jpg'
-// import Tcpp from '../images/skills/t-cpp.jpg'
 
 import TFlutter from '../images/skills/t-flutter.jpg'
 import TApple from '../images/skills/t-apple.jpg'
@@ -54,8 +53,7 @@ const skillslist = [
     "color": "#eeae4a",
     "text": "#000",
     "skills": [
-      // {"name": "JavaScript", "logo": Tjs},
-      {"name": "TypeScript", "logo": Tts},
+      {"name": "TypeScript", "logo": TTs},
       {"name": "Node.js", "logo": Tnode},
       {"name": "React.js", "logo": Treact},
       {"name": "Next.js", "logo": TNextjs},
@@ -63,7 +61,6 @@ const skillslist = [
       {"name": "Redux", "logo": Tredux},
       {"name": "Jest", "logo": TJest},
       {"name": "Vue.js", "logo": TVuejs},
-      // {"name": "p5.js", "logo": Tp5},
     ]
   },
   {
