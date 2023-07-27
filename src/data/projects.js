@@ -78,7 +78,7 @@ const Projects = [
     "website": "https://telmi.io",
     "github": "",
     "light": true,
-    "short_desc": `Telmi is the podcast mobile app for children. Kids of all ages can register under their parents consent to create podcast and share them with their family and friends`,
+    "short_desc": `Telmi is a podcast mobile app for children. Kids of all ages can register under their parent's consent to create podcasts and share them with their family and friends.`,
     "long_desc": `
       Developed their mobile app for children to create, modify, and share podcasts with friends, featuring suggestions and multiple profiles inspired by the popular Netflix style.
       As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
