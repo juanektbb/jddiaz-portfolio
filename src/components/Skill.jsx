@@ -2,11 +2,6 @@ import React from 'react'
 
 class Skill extends React.Component{
 
-  constructor(props){
-    super(props)
-    this.state = {}
-  }
-
   render(){
     return(
       <div className="Skill" style={{borderColor: this.props.color}}>

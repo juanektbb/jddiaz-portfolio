@@ -1,51 +1,42 @@
-import TTs from '../images/skills/t-ts.jpg'
-import Treact from '../images/skills/t-react.jpg'
-import Tnode from '../images/skills/t-node.jpg'
-import Tsvelte from '../images/skills/t-svelte.jpg'
-import Tredux from '../images/skills/t-redux.jpg'
+import TTS from '../images/skills/t-ts.jpg'
+import TReact from '../images/skills/t-react.jpg'
+import TNode from '../images/skills/t-node.jpg'
+import TRedux from '../images/skills/t-redux.jpg'
 import TNextjs from '../images/skills/t-nextjs.jpg'
 import TJest from '../images/skills/t-jest.jpg'
 import TVuejs from '../images/skills/t-vuejs.jpg'
+import TSequelize from '../images/skills/t-sequelize.jpg'
 
-import Tdjango from '../images/skills/t-django.jpg'
-import Tflask from '../images/skills/t-flask.jpg'
-import Tscikit from '../images/skills/t-scikit.jpg'
-import Tnumpy from '../images/skills/t-numpy.jpg'
-import Tpandas from '../images/skills/t-pandas.jpg'
+import TDjango from '../images/skills/t-django.jpg'
+import TFlask from '../images/skills/t-flask.jpg'
+import TScikit from '../images/skills/t-scikit.jpg'
+import TNumpy from '../images/skills/t-numpy.jpg'
+import TPandas from '../images/skills/t-pandas.jpg'
 import TJupyter from '../images/skills/t-jupyter.jpg'
-import Tmatplotlib from '../images/skills/t-matplotlib.jpg'
+import TMatplotlib from '../images/skills/t-matplotlib.jpg'
 
-
-import Tmysql from '../images/skills/t-mysql.jpg'
-import Tpostgresql from '../images/skills/t-postgresql.jpg'
-import Tmongodb from '../images/skills/t-mongodb.jpg'
-import Tsqlite from '../images/skills/t-sqlite.jpg'
-
-import Tgit from '../images/skills/t-git.jpg'
-import Tdocker from '../images/skills/t-docker.jpg'
-import TTerraform from '../images/skills/t-terraform.jpg'
-import TAWS from '../images/skills/t-aws.jpg'
+import TMySQL from '../images/skills/t-mysql.jpg'
+import TPostgreSQL from '../images/skills/t-postgresql.jpg'
+import TMongoDB from '../images/skills/t-mongodb.jpg'
+import TSqlite from '../images/skills/t-sqlite.jpg'
+import TRedis from '../images/skills/t-redis.jpg'
 
 import TGraphQL from '../images/skills/t-graphql.jpg'
-
-
-
-import Tjava from '../images/skills/t-java.jpg'
+import TGIT from '../images/skills/t-git.jpg'
+import TDocker from '../images/skills/t-docker.jpg'
+import TTerraform from '../images/skills/t-terraform.jpg'
+import TAWS from '../images/skills/t-aws.jpg'
 
 import TFlutter from '../images/skills/t-flutter.jpg'
 import TApple from '../images/skills/t-apple.jpg'
 import TAndroid from '../images/skills/t-android.jpg'
 import TFirebase from '../images/skills/t-firebase.jpg'
 
-import Thtml from '../images/skills/t-html.jpg'
-import Tcss from '../images/skills/t-css.jpg'
-import Tsass from '../images/skills/t-sass.jpg'
+import THTML from '../images/skills/t-html.jpg'
+import TCSS from '../images/skills/t-css.jpg'
+import TSASS from '../images/skills/t-sass.jpg'
+import TBootstrap from '../images/skills/t-bootstrap.jpg'
 import TTailwind from '../images/skills/t-tailwind.jpg'
-import Tbootstrap from '../images/skills/t-bootstrap.jpg'
-
-import Tphotoshop from '../images/skills/t-photoshop.jpg'
-import Tpremier from '../images/skills/t-premier.jpg'
-import Teffects from '../images/skills/t-effects.jpg'
 
 const skillslist = [
   {
@@ -53,13 +44,13 @@ const skillslist = [
     "color": "#eeae4a",
     "text": "#000",
     "skills": [
-      {"name": "TypeScript", "logo": TTs},
-      {"name": "Node.js", "logo": Tnode},
-      {"name": "React.js", "logo": Treact},
+      {"name": "TypeScript", "logo": TTS},
+      {"name": "Node.js", "logo": TNode},
+      {"name": "React.js", "logo": TReact},
       {"name": "Next.js", "logo": TNextjs},
-      {"name": "Svelte", "logo": Tsvelte},
-      {"name": "Redux", "logo": Tredux},
+      {"name": "Redux", "logo": TRedux},
       {"name": "Jest", "logo": TJest},
+      {"name": "Sequelize", "logo": TSequelize},
       {"name": "Vue.js", "logo": TVuejs},
     ]
   },
@@ -68,33 +59,22 @@ const skillslist = [
     "color": "#004792",
     "text": "#fff",
     "skills": [
-      // {"name": "Python", "logo": Tpython},
-      {"name": "Django", "logo": Tdjango},
-      {"name": "Flask", "logo": Tflask},
-      {"name": "Scikit-learn", "logo": Tscikit},
+      {"name": "Django", "logo": TDjango},
+      {"name": "Flask", "logo": TFlask},
       {"name": "Jupyter", "logo": TJupyter},
-      {"name": "Matplotlib", "logo": Tmatplotlib},
-      {"name": "Pandas", "logo": Tpandas},
-      {"name": "Numpy", "logo": Tnumpy},
+      {"name": "Scikit-learn", "logo": TScikit},
+      {"name": "Matplotlib", "logo": TMatplotlib},
+      {"name": "Pandas", "logo": TPandas},
+      {"name": "Numpy", "logo": TNumpy},
     ]
   },
-  // {
-  //   "title": "PHP",
-  //   "color": "#8a93be",
-  //   "text": "#000",
-  //   "skills": [
-  //     {"name": "PHP", "logo": Tphp},
-  //     {"name": "Symfony", "logo": Tsymfony},
-  //     {"name": "Wordpress", "logo": Twordpress},
-  //   ]
-  // },
   {
     "title": "Mobile App Development",
     "color": "#61b086",
     "text": "#000",
     "skills": [
       {"name": "Flutter", "logo": TFlutter},
-      {"name": "ReactNative", "logo": Treact},
+      {"name": "React Native", "logo": TReact},
       {"name": "Apple", "logo": TApple},
       {"name": "Android", "logo": TAndroid},
       {"name": "Firebase", "logo": TFirebase},
@@ -105,66 +85,37 @@ const skillslist = [
     "color": "#aaa",
     "text": "#000",
     "skills": [
-      {"name": "PostgreSQL", "logo": Tpostgresql},
-      {"name": "MySQL", "logo": Tmysql},
-      {"name": "MongoDB", "logo": Tmongodb},
-      {"name": "SQLite", "logo": Tsqlite},
+      {"name": "Postgres", "logo": TPostgreSQL},
+      {"name": "MySQL", "logo": TMySQL},
+      {"name": "MongoDB", "logo": TMongoDB},
+      {"name": "SQLite", "logo": TSqlite},
+      {"name": "Redis", "logo": TRedis},
     ]
   },
   {
-    "title": "DevOps",
+    "title": "DevOps & Backend",
     "color": "#666",
     "text": "#fff",
     "skills": [
-      {"name": "Git", "logo": Tgit},
-      {"name": "AWS", "logo": TAWS},
       {"name": "GraphQL", "logo": TGraphQL},
+      {"name": "Git", "logo": TGIT},
+      {"name": "AWS", "logo": TAWS},
+      {"name": "Docker", "logo": TDocker},
       {"name": "Terraform", "logo": TTerraform},
-      {"name": "Docker", "logo": Tdocker},
-    ]
-  },
-  // {
-  //   "title": "Machine Learning",
-  //   "color": "#3a7abd",
-  //   "text": "#fff",
-  //   "skills": [
-  //     {"name": "Scikit-learn", "logo": Tscikit},
-  //     {"name": "Numpy", "logo": Tnumpy},
-  //     {"name": "Pandas", "logo": Tpandas},
-  //     {"name": "Matplotlib", "logo": Tmatplotlib}
-  //   ]
-  // },
-
-  {
-    "title": "Others",
-    "color": "#c84b36",
-    "text": "#fff",
-    "skills": [
-      {"name": "Java", "logo": Tjava},
     ]
   },
   {
     "title": "Frontend Development",
-    "color": "#cc6698",
+    "color": "#c84b36",
     "text": "#fff",
     "skills": [
-      {"name": "HTML", "logo": Thtml},
-      {"name": "CSS", "logo": Tcss},
-      {"name": "SASS", "logo": Tsass},
+      {"name": "HTML", "logo": THTML},
+      {"name": "CSS", "logo": TCSS},
+      {"name": "SASS", "logo": TSASS},
+      {"name": "Bootstrap", "logo": TBootstrap},
       {"name": "Tailwind", "logo": TTailwind},
-      {"name": "Bootstrap", "logo": Tbootstrap},
     ]
   },
-  {
-    "title": "Adobe Creative Suite",
-    "color": "#353b6a",
-    "text": "#fff",
-    "skills": [
-      {"name": "Photoshop", "logo": Tphotoshop},
-      {"name": "Premier", "logo": Tpremier},
-      {"name": "A. Effects", "logo": Teffects},
-    ]
-  }
 ]
 
 export default skillslist

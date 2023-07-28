@@ -49,8 +49,8 @@
 }
 .tile-title{
   background-color: rgba(9,122,181, 0.75);
-  line-height: 100px;
-  font-size: 25px;
+  line-height: 80px;
+  font-size: 22px;
   color: #fff;
   text-align: center;
   width: 70%;
@@ -59,7 +59,7 @@
 }
 .tile-text{
   width: 85%;
-  margin: 10px auto;
+  margin: 30px auto;
   color: #fff;
   height: 100px;
   text-align: center;
@@ -79,7 +79,8 @@
   color: white;
   cursor: pointer;
   position: absolute;
-  bottom: 25px;
+  bottom: 35px;
+  border-radius: 6px;
   margin-left: calc(50% - 100px)
 }
 .tile-details:hover{
