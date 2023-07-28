@@ -36,23 +36,27 @@
 .active-option .Option{
   background-color: #4f4f60;
 }
-.Social{
-  margin-top: 25px;
+.social-container{
+  display: flex;
+  width: 100%;
+}
+.social-item{
+  width: 50%;
+  cursor: pointer;
 }
 .Media{
+  height: 55px;
   width: 100%;
   font-size: 14px;
-  padding-left: 55px;
   line-height: 45px;
   position: relative;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 .Media img{
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  width: 35px;
+  margin-top: 7.5px;
+  width: 40px;
 }
 
 /* RESPONSIVE MENU */

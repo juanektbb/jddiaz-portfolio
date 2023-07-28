@@ -84,7 +84,7 @@ const Projects = [
       As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
     `,
     "images": [T1, T9, T4, T2, T5, T10, T3, T8],
-    "techs": ["Flutter", "Django", "PostgreSQL", "AWS", "Firebase", "JavaScript", "HTML", "CSS"]
+    "techs": ["Flutter", "Django", "PostgreSQL", "AWS", "Firebase", "JavaScript"]
   },
   {
     "title": "vHelp",

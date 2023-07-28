@@ -39,7 +39,7 @@ class Tile extends React.Component{
           </div>
 
           <Link to={this.props.item.url}>
-            <div className="tile-details">Check it out</div>
+            <div className="tile-details">Read more</div>
           </Link>
         </div>
       </div>
