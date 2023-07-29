@@ -13,13 +13,42 @@
   background-color: var(--color-menu);
 }
 .Header{
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.Header h1, .HeaderRes h1{
+  position: relative;
+  text-transform: uppercase;
   font-size: 24px;
-  font-weight: bold;
-  font-family: 'Dancing Script', sans-serif;
-  color: #eee;
+  font-family: 'Catamaran', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  width: 164px;
+  margin-left: calc(50% - 159px / 2);
+}
+.Header h1:before, .HeaderRes h1:before{
+  position: absolute;
+  z-index: -1;
+  content: 'Juan D. Diaz';
+  color: rgba(106, 1, 103, 0.8);
+  top: 2px;
+  left: 4px;
+}
+.Header h1:after, .HeaderRes h1:after{
+  z-index: -1;
+  position: absolute;
+  content: 'Juan D. Diaz';
+  color: rgba(206, 35, 35, 0.8); 
+  top: -1px;
+  left: 2px;
+} 
+.menu-title{
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 35px;
+  font-style: italic;
+  padding: 0 16px;
+  text-align: center;
 }
 .Option{
   width: 100%;
@@ -72,14 +101,19 @@
   justify-content: space-between;
 }
 .HeaderRes{
-  height: 60px;
-  line-height: 60px;
-  width: 135px;
-  font-size: 24px;
-  font-weight: bold;
+  height: 52px; 
+  line-height: 52px;
   padding-left: 10px;
-  font-family: 'Dancing Script', sans-serif;
-  color: #eee;
+}
+.HeaderRes h1 {
+  margin-left: 0;
+  z-index: 1;
+}
+.header-title-res{
+  padding: 10px 20px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #fff;
 }
 .ContentLeft{
   display: flex

@@ -55,7 +55,7 @@ import C8 from '../images/carousel/collaap/image-8.jpg'
 const Projects = [
   {
     "title": "Duappy",
-    "category": "Duappy - Dancing Events App",
+    "category": "Duappy Events App",
     "img": Duappy,
     "url": "/duappy",
     "website": "https://duappy.com",
@@ -68,7 +68,8 @@ const Projects = [
       Successfully developed the mobile app for iOS and Android using Flutter, a responsive web dashboard with Next.js, and a robust RESTful API backend in Node.js. Ensured seamless deployment and scalability by establishing essential DevOps processes in AWS.
     `,
     "images": [D1, D2, D3, D7, D5, D6, D8, D9],
-    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "PostgreSQL", "AWS", "Stripe", "Sequelize", "Tailwind"]
+    "techs": ["Flutter", "TypeScript", "Node.js", "React.js", "Next.js", "PostgreSQL", "AWS", "Stripe", "Sequelize", "Tailwind"],
+    "footer": "End-to-end project as solo developer"
   },
   {
     "title": "Telmi Kids",
@@ -84,7 +85,8 @@ const Projects = [
       As the sole developer, I built the entire iOS app, along with a Django-based RESTful API backend deployed on AWS. Employed an agile methodology and self-project planning to ensure the timely delivery of high-quality features.
     `,
     "images": [T1, T9, T4, T2, T5, T10, T3, T8],
-    "techs": ["Flutter", "Django", "PostgreSQL", "AWS", "Firebase", "JavaScript"]
+    "techs": ["Flutter", "Django", "PostgreSQL", "AWS", "Firebase", "JavaScript"],
+    "footer": "End-to-end project as solo developer"
   },
   {
     "title": "vHelp",
@@ -105,6 +107,7 @@ const Projects = [
     `,
     "images": [V1, V2, V3, V5, V6, V7, V8, V9],
     "techs": ["Flutter", "React.js", "TypeScript", "Node.js", "Express", "Sequelize", "PostgreSQL", "Docker", "Stripe", "AWS", "Tailwind"],
+    "footer": "End-to-end project as lead developer"
   },
   {
     "title": "Musidex",
@@ -120,11 +123,12 @@ const Projects = [
       Furthermore, I implemented an efficient search system to enhance content discovery, empowering music artists to store, share, and showcase their soundtracks, thereby ensuring a smooth user experience.
     `,
     "images": [],
-    "techs": ["React.js", "Next.js", "Firebase", "Node.js", "Netlify"]
+    "techs": ["React.js", "Next.js", "Firebase", "Node.js", "Netlify"],
+    "footer": "End-to-end project as lead developer"
   },
   {
     "title": "VeeLoop",
-    "category": "Job Project",
+    "category": "VeeLoop",
     "img": VeeLoop,
     "url": "/veeloop",
     "website": "https://veeloop.com",
@@ -134,7 +138,8 @@ const Projects = [
       Teens fill up the basket online, send it to mum, mum checks and pays in her own time.`,
     "long_desc": "",
     "images": [],
-    "techs": ["PHP", "Symfony", "React", "MySQL", "Python", "JavaScript", "jQuery", "HTML", "CSS", "SASS", "Stripe", "Shopify", "AWS"]
+    "techs": ["PHP", "Symfony", "React", "MySQL", "Python", "JavaScript", "jQuery", "HTML", "CSS", "SASS", "Stripe", "Shopify", "AWS"],
+    "footer": "Effectively spearhead multiple impactful projects"
   },
   {
     "title": "Karali Group",
@@ -151,11 +156,12 @@ const Projects = [
       \n All of these follow a hierarchical schema with access roles for the company members who are more than 150 individuals organized by all the franchised restaurants and the company employees.
       \n My everyday tasks were growing the platform by building new solutions and features, administrate and maintain all the web servers and their databases, provide technical support and occasionally design websites for their brand restaurants.`,
       "images": [],
-      "techs": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS", "DevOps"]
+      "techs": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS", "DevOps"],
+      "footer": "End-to-end project as solo developer"
   },
   {
     "title": "Sticky Sisters",
-    "category": "Sticky Sisters Website",
+    "category": "Sticky Sisters",
     "img": StickySisters,
     "url": "/stickysisters",
     "website": "http://www.stickysisters.co.uk/",
@@ -165,7 +171,7 @@ const Projects = [
       chicken wings and tasty sauces.`,
     "long_desc": "",
     "images": [],
-    "techs": []
+    "techs": ["JavaScript", "HTML", "CSS", "SASS"],
   },
   {
     "title": "MP3Download",

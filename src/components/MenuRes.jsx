@@ -41,9 +41,9 @@ class MenuRes extends React.Component{
     return(
       <div className="MenuResBox">
         <div className="MenuRes">
-          <header className="HeaderRes">
-            Juan D. Diaz
-          </header>
+        <header className="HeaderRes">
+          <h1>Juan D. Diaz</h1>
+        </header>
 
           <div className="ContentLeft">
             <a href="https://github.com/juanektbb" target="_blank" rel="noopener noreferrer">

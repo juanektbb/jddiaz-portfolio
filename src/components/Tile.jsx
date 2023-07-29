@@ -29,6 +29,10 @@ class Tile extends React.Component{
           {!this.state.hover && this.props.item.category}
         </div>
 
+        <div className={"tile-footer " + (this.props.item.light ? "" : "tile-footer-light")}>
+          {!this.state.hover && this.props.item.footer}
+        </div>
+
         <div className={"tile-cover " + (this.state.hover ? "showup" : "")}>
           <div className={"tile-title " + (this.state.hover ? "tile-title-effect" : "")}>
             {this.props.item.title}

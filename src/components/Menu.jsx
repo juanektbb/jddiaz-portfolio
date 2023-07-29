@@ -41,8 +41,12 @@ const Menu = (props) => {
   return(
     <div className="Menu">
       <header className="Header">
-        Juan D. Diaz
+        <h1>Juan D. Diaz</h1>
       </header>
+
+      <div className="menu-title">
+        Full Stack Engineer with 6+ Years of Experience Delivering Scalable Web Technologies for Business Growth and Leading High-Impact Projects
+      </div>
 
       {menuOptions.map((item, key) =>
         <NavLink key={key} to={item.to} exact activeClassName="active-option">
